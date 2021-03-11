@@ -193,7 +193,8 @@ class CheckBoxList {
         list[0] = new Checkbox(options);
 
         // Create the second check-box
-        options.put(slideSymbol, 3 * dc.getHeight()/4);
+        options.put(slideSymbol, 160);
+//        3 * dc.getHeight()/4
         list[1] = new Checkbox(options);
 
 //        // Create the third check-box
