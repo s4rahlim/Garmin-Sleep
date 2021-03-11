@@ -1,6 +1,6 @@
 <resources>
     <bitmap id="LauncherIcon" filename="images/icon.png" />
-    <bitmap id="checkBoxDefault" filename="images/checkbox_default.png" dithering="none" />
+    <bitmap id="checkBoxDefault" filename="images/green.png" dithering="none" />
     <bitmap id="checkBoxSelected" filename="images/checkbox_selected.png" dithering="none" />
     <bitmap id="checkBoxHighlighted" filename="images/checkbox_highlighted.png" dithering="none" />
     <bitmap id="checkBoxHighlightedSelected" filename="images/checkbox_highlighted_selected.png" dithering="none" />

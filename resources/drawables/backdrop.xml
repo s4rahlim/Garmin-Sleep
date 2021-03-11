@@ -1,4 +1,4 @@
-<drawable-list id="backdrop" background="Graphics.COLOR_BLUE">
-    <shape type="rectangle" x="0" y="200" width="240" height="100" color="Graphics.COLOR_RED" />
-    <shape type="rectangle" x="0" y="0" width="240" height="100" color="Graphics.COLOR_RED" />
+<drawable-list id="backdrop" background="Graphics.COLOR_BLACK">
+    <shape type="rectangle" x="0" y="160" width="260" height="100" color="Graphics.COLOR_RED" />
+    <shape type="rectangle" x="0" y="0" width="260" height="100" color="Graphics.COLOR_GREEN" />
 </drawable-list>

@@ -170,9 +170,11 @@ class CheckBoxList {
             offset = (dims[0] / 2);
 //            initX = spacing - offset - BORDER_PAD;
 //            initY = 40;//(dc.getHeight() / 2) - (dims[1] / 2);
-            initX = dc.getWidth() / 2 - offset;
+            initX = 0;
+//            dc.getWidth() / 2 - offset;
 //            initY = (dc.getHeight() / 2) - (dims[1] / 2);
-			initY = dc.getHeight() / 6 - offset;
+			initY = 0;
+//			dc.getHeight() / 6 - offset;
         }
 
         // Create the first check-box
@@ -184,9 +186,10 @@ class CheckBoxList {
             :stateHighlightedSelected=>checkBoxHighlightedSelected,
             :locX=>initX,
             :locY=>initY,
-            :width=>dims[0],
-            :height=>dims[1]
+            :width=>260,
+            :height=>100
             };
+            //width and height were dims[0]. dims[1]
         list[0] = new Checkbox(options);
 
         // Create the second check-box
@@ -233,7 +236,6 @@ class CheckBoxList {
 }
 
 class CheckBoxView extends WatchUi.View {
-	var phone_icon;
     // Storage for our CheckBoxList
     var checkBoxes = null;
 
@@ -247,7 +249,6 @@ class CheckBoxView extends WatchUi.View {
         status_string = "NO_EVENT";
         action_hits = 0;
         behavior_hits = 0;
-        phone_icon = new WatchUi.Bitmap({:rezId=>Rez.Drawables.phone_icon,:locX=>100,:locY=>100});
         // Initialize global reference
         currentView = self;
     }
@@ -257,7 +258,6 @@ class CheckBoxView extends WatchUi.View {
     	System.println("CheckBoxView::onLayout");
         checkBoxes = new CheckBoxList(dc);
         setLayout(checkBoxes.getList());
-//        WatchUi.animate( phone_icon, :locX, WatchUi.ANIM_TYPE_LINEAR, 10, dc.getWidth() + 50, 10, null );
     }
 
     //! Update the view
@@ -278,6 +278,5 @@ class CheckBoxView extends WatchUi.View {
         dc.drawText(x, dc.getHeight()/2 - 20, Graphics.FONT_MEDIUM, "Respond to Survey", Graphics.TEXT_JUSTIFY_CENTER);
         dc.drawText(x, dc.getHeight()/2 - dc.getFontHeight(Graphics.FONT_SMALL) -25, Graphics.FONT_SMALL, "YES", Graphics.TEXT_JUSTIFY_CENTER);
         dc.drawText(x, dc.getHeight()/2 + dc.getFontHeight(Graphics.FONT_SMALL) -5, Graphics.FONT_SMALL, "NO", Graphics.TEXT_JUSTIFY_CENTER);
-//        phone_icon.draw(dc);
     }
 }
