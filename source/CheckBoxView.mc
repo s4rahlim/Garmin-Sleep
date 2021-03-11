@@ -146,6 +146,7 @@ class CheckBoxList {
 
         // Define our states for each CheckBox
         var checkBoxDefault = new WatchUi.Bitmap({:rezId=>Rez.Drawables.checkBoxDefault});
+        var checkBoxRed = new WatchUi.Bitmap({:rezId=>Rez.Drawables.checkBoxRed});
         var checkBoxHighlighted = new WatchUi.Bitmap({:rezId=>Rez.Drawables.checkBoxHighlighted});
         var checkBoxSelected = new WatchUi.Bitmap({:rezId=>Rez.Drawables.checkBoxSelected});
         var checkBoxHighlightedSelected = new WatchUi.Bitmap({:rezId=>Rez.Drawables.checkBoxHighlightedSelected});
@@ -191,11 +192,22 @@ class CheckBoxList {
             };
             //width and height were dims[0]. dims[1]
         list[0] = new Checkbox(options);
-
+		
+		var optionsRed = {
+            :stateDefault=>checkBoxRed,
+            :stateHighlighted=>checkBoxHighlighted,
+            :stateSelected=>checkBoxSelected,
+            :stateDisabled=>checkBoxDisabled,
+            :stateHighlightedSelected=>checkBoxHighlightedSelected,
+            :locX=>initX,
+            :locY=>160,
+            :width=>260,
+            :height=>100
+            };
         // Create the second check-box
-        options.put(slideSymbol, 160);
+//        options.put(slideSymbol, 160);
 //        3 * dc.getHeight()/4
-        list[1] = new Checkbox(options);
+        list[1] = new Checkbox(optionsRed);
 
 //        // Create the third check-box
 //        options.put(slideSymbol, 3 * spacing - offset + BORDER_PAD);
