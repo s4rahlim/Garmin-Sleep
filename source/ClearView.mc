@@ -7,13 +7,15 @@
 using Toybox.WatchUi;
 
 class ClearView extends WatchUi.View {
-
+	
+	var backdrop;
 	var phone;
 
     //! Constructor
     function initialize() {
     	System.println("ClearView::initialize");
         View.initialize();
+        backdrop = new Rez.Drawables.backdrop();
 //        clear = new WatchUi.Bitmap({:rezId=>Rez.Drawables.clear_icon,:locX=>100,:locY=>180});
     }
 
@@ -27,6 +29,8 @@ class ClearView extends WatchUi.View {
     function onUpdate(dc) {
     	System.println("ClearView::onUpdate");
         View.onUpdate(dc);
+        backdrop.draw(dc);
+        
 //        Clear.draw(dc);
     }
 }

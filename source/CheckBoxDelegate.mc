@@ -141,7 +141,8 @@ class CheckBoxDelegate extends WatchUi.BehaviorDelegate {
     function pushMenu(slideDir) {
     	System.println("CheckBoxDelegate::pushMenu");
     	//var view = new ButtonView();
-        var view = new PhoneView();
+//        var view = new PhoneView();
+        var view = new ClearView();
         var delegate = new ButtonDelegate();
         WatchUi.pushView(view, delegate, slideDir); //pushing phone view on top, checkbox is still under
         return true;
