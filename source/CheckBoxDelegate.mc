@@ -37,7 +37,9 @@ class CheckBoxDelegate extends WatchUi.BehaviorDelegate {
     function onSelectable(event) {
     	System.println("CheckBoxDelegate::onSelectable");
         var instance = event.getInstance();
-
+//        instance.identifier (check to see which box it is)
+		System.println(instance.identifier);
+		System.println((instance.getState() == :stateHighlighted));
         if(instance instanceof Checkbox) {
             currentView.checkBoxes.handleEvent(instance, event.getPreviousState());
         }

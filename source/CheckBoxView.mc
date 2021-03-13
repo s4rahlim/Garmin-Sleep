@@ -179,8 +179,10 @@ class CheckBoxList {
         }
 
         // Create the first check-box
+        //set identifier here
         var options = {
             :stateDefault=>checkBoxDefault,
+            :identifier=>0,
             :stateHighlighted=>checkBoxHighlighted,
             :stateSelected=>checkBoxSelected,
             :stateDisabled=>checkBoxDisabled,
@@ -195,6 +197,7 @@ class CheckBoxList {
 		
 		var optionsRed = {
             :stateDefault=>checkBoxRed,
+            :identifier=>1,
             :stateHighlighted=>checkBoxHighlighted,
             :stateSelected=>checkBoxSelected,
             :stateDisabled=>checkBoxDisabled,
@@ -208,10 +211,6 @@ class CheckBoxList {
 //        options.put(slideSymbol, 160);
 //        3 * dc.getHeight()/4
         list[1] = new Checkbox(optionsRed);
-
-//        // Create the third check-box
-//        options.put(slideSymbol, 3 * spacing - offset + BORDER_PAD);
-//        list[2] = new Checkbox(options);
     }
 
     //! Return instance of current list of CheckBoxes
@@ -223,28 +222,39 @@ class CheckBoxList {
     //! General handler for onSelectable() events
     function handleEvent(instance, previousState) {
         // Handle all cases except disabled (handled implicitly)
-        if(instance.getState() == :stateHighlighted) {
-        	System.println("CheckBoxList::handleEvent - stateHighlighted");
-            // Only one CheckBox may be highlighted
-            if((null != currentHighlight) && !currentHighlight.equals(instance)) {
-                currentHighlight.unHighlight();
-            }
+        if(instance.identifier == 0){
+        	if(instance.getState() == :stateSelected){
+        		var view = new PhoneView();
+        		var delegate = new ButtonDelegate();
+        		WatchUi.pushView(view, delegate, WatchUi.SLIDE_IMMEDIATE); 
+        	}
+        }
+        else if(instance.identifier == 1){
+        	
+        }
 
-            // Note which checkbox was highlighted
-            currentHighlight = instance;
-            instance.highlight(previousState);
-        }
-        else if(instance.getState() == :stateSelected) {
-        	System.println("CheckBoxList::handleEvent - stateSelected");
-            instance.select(previousState);
-        }
-        else if(instance.getState() == :stateDefault) {
-        	System.println("CheckBoxList::handleEvent - stateDefault");
-            instance.reset(previousState);
-        }
-        else {
-        	System.println("CheckBoxList::handleEvent - else");
-        }
+//        if(instance.getState() == :stateHighlighted) {
+//        	System.println("CheckBoxList::handleEvent - stateHighlighted");
+//            // Only one CheckBox may be highlighted
+//            if((null != currentHighlight) && !currentHighlight.equals(instance)) {
+//                currentHighlight.unHighlight();
+//            }
+//
+//            // Note which checkbox was highlighted
+//            currentHighlight = instance;
+//            instance.highlight(previousState);
+//        }
+//        else if(instance.getState() == :stateSelected) {
+//        	System.println("CheckBoxList::handleEvent - stateSelected");
+//            instance.select(previousState);
+//        }
+//        else if(instance.getState() == :stateDefault) {
+//        	System.println("CheckBoxList::handleEvent - stateDefault");
+//            instance.reset(previousState);
+//        }
+//        else {
+//        	System.println("CheckBoxList::handleEvent - else");
+//        }
     }
 }
 
