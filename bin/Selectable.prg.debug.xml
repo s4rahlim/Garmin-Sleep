@@ -105,258 +105,252 @@
         <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxView.mc" id="30" lineNum="145" pc="268437457" symbol="initialize"/>
         <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxView.mc" id="30" lineNum="148" pc="268437464" symbol="initialize"/>
         <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxView.mc" id="30" lineNum="149" pc="268437526" symbol="initialize"/>
-        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxView.mc" id="30" lineNum="150" pc="268437588" symbol="initialize"/>
-        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxView.mc" id="30" lineNum="151" pc="268437650" symbol="initialize"/>
-        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxView.mc" id="30" lineNum="152" pc="268437712" symbol="initialize"/>
-        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxView.mc" id="30" lineNum="153" pc="268437774" symbol="initialize"/>
-        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxView.mc" id="30" lineNum="156" pc="268437788" symbol="initialize"/>
-        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxView.mc" id="30" lineNum="158" pc="268437801" symbol="initialize"/>
-        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxView.mc" id="30" lineNum="160" pc="268437815" symbol="initialize"/>
-        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxView.mc" id="30" lineNum="161" pc="268437815" symbol="initialize"/>
-        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxView.mc" id="30" lineNum="162" pc="268437841" symbol="initialize"/>
-        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxView.mc" id="30" lineNum="163" pc="268437848" symbol="initialize"/>
-        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxView.mc" id="30" lineNum="164" pc="268437867" symbol="initialize"/>
-        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxView.mc" id="30" lineNum="165" pc="268437883" symbol="initialize"/>
-        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxView.mc" id="30" lineNum="166" pc="268437893" symbol="initialize"/>
-        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxView.mc" id="30" lineNum="169" pc="268437930" symbol="initialize"/>
-        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxView.mc" id="30" lineNum="170" pc="268437937" symbol="initialize"/>
-        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxView.mc" id="30" lineNum="171" pc="268437956" symbol="initialize"/>
-        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxView.mc" id="30" lineNum="174" pc="268437972" symbol="initialize"/>
-        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxView.mc" id="30" lineNum="177" pc="268437979" symbol="initialize"/>
-        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxView.mc" id="30" lineNum="183" pc="268437986" symbol="initialize"/>
-        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxView.mc" id="30" lineNum="196" pc="268438103" symbol="initialize"/>
-        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxView.mc" id="30" lineNum="198" pc="268438141" symbol="initialize"/>
-        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxView.mc" id="30" lineNum="213" pc="268438261" symbol="initialize"/>
-        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxView.mc" id="31" lineNum="217" pc="268438300" symbol="getList"/>
-        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxView.mc" id="31" lineNum="218" pc="268438304" symbol="getList"/>
-        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxView.mc" id="31" lineNum="219" pc="268438327" symbol="getList"/>
-        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxView.mc" id="32" lineNum="223" pc="268438337" symbol="handleEvent"/>
-        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxView.mc" id="32" lineNum="225" pc="268438341" symbol="handleEvent"/>
-        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxView.mc" id="32" lineNum="226" pc="268438358" symbol="handleEvent"/>
-        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxView.mc" id="32" lineNum="227" pc="268438378" symbol="handleEvent"/>
-        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxView.mc" id="32" lineNum="228" pc="268438402" symbol="handleEvent"/>
-        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxView.mc" id="32" lineNum="229" pc="268438426" symbol="handleEvent"/>
-        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxView.mc" id="32" lineNum="232" pc="268438464" symbol="handleEvent"/>
-        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxView.mc" id="34" lineNum="266" pc="268438485" symbol="initialize"/>
-        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxView.mc" id="34" lineNum="267" pc="268438489" symbol="initialize"/>
-        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxView.mc" id="34" lineNum="268" pc="268438512" symbol="initialize"/>
-        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxView.mc" id="34" lineNum="270" pc="268438530" symbol="initialize"/>
-        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxView.mc" id="34" lineNum="271" pc="268438543" symbol="initialize"/>
-        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxView.mc" id="34" lineNum="272" pc="268438556" symbol="initialize"/>
-        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxView.mc" id="34" lineNum="273" pc="268438569" symbol="initialize"/>
-        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxView.mc" id="34" lineNum="274" pc="268438582" symbol="initialize"/>
-        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxView.mc" id="34" lineNum="276" pc="268438595" symbol="initialize"/>
-        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxView.mc" id="35" lineNum="280" pc="268438606" symbol="onLayout"/>
-        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxView.mc" id="35" lineNum="281" pc="268438610" symbol="onLayout"/>
-        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxView.mc" id="35" lineNum="282" pc="268438633" symbol="onLayout"/>
-        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxView.mc" id="35" lineNum="283" pc="268438665" symbol="onLayout"/>
-        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxView.mc" id="36" lineNum="287" pc="268438695" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxView.mc" id="36" lineNum="288" pc="268438699" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxView.mc" id="36" lineNum="289" pc="268438722" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxView.mc" id="36" lineNum="292" pc="268438742" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxView.mc" id="36" lineNum="293" pc="268438778" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxView.mc" id="36" lineNum="294" pc="268438797" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxView.mc" id="36" lineNum="300" pc="268438804" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxView.mc" id="36" lineNum="301" pc="268438840" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxView.mc" id="36" lineNum="302" pc="268438906" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxView.mc" id="36" lineNum="303" pc="268438996" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\PhoneView.mc" id="38" lineNum="14" pc="268439087" symbol="initialize"/>
-        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\PhoneView.mc" id="38" lineNum="15" pc="268439091" symbol="initialize"/>
-        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\PhoneView.mc" id="38" lineNum="16" pc="268439114" symbol="initialize"/>
-        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\PhoneView.mc" id="38" lineNum="17" pc="268439132" symbol="initialize"/>
-        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\PhoneView.mc" id="39" lineNum="21" pc="268439227" symbol="onLayout"/>
-        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\PhoneView.mc" id="39" lineNum="22" pc="268439231" symbol="onLayout"/>
-        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\PhoneView.mc" id="39" lineNum="23" pc="268439254" symbol="onLayout"/>
-        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\PhoneView.mc" id="40" lineNum="27" pc="268439292" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\PhoneView.mc" id="40" lineNum="28" pc="268439296" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\PhoneView.mc" id="40" lineNum="29" pc="268439319" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\PhoneView.mc" id="40" lineNum="30" pc="268439339" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxDelegate.mc" id="42" lineNum="25" pc="268439360" symbol="initialize"/>
-        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxDelegate.mc" id="42" lineNum="26" pc="268439364" symbol="initialize"/>
-        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxDelegate.mc" id="42" lineNum="27" pc="268439387" symbol="initialize"/>
-        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxDelegate.mc" id="43" lineNum="30" pc="268439406" symbol="onPreviousPage"/>
-        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxDelegate.mc" id="43" lineNum="31" pc="268439410" symbol="onPreviousPage"/>
-        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxDelegate.mc" id="43" lineNum="32" pc="268439433" symbol="onPreviousPage"/>
-        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxDelegate.mc" id="43" lineNum="33" pc="268439449" symbol="onPreviousPage"/>
-        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxDelegate.mc" id="43" lineNum="34" pc="268439466" symbol="onPreviousPage"/>
-        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxDelegate.mc" id="44" lineNum="37" pc="268439470" symbol="onSelectable"/>
-        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxDelegate.mc" id="44" lineNum="38" pc="268439474" symbol="onSelectable"/>
-        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxDelegate.mc" id="44" lineNum="39" pc="268439497" symbol="onSelectable"/>
-        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxDelegate.mc" id="44" lineNum="41" pc="268439510" symbol="onSelectable"/>
-        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxDelegate.mc" id="44" lineNum="42" pc="268439536" symbol="onSelectable"/>
-        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxDelegate.mc" id="44" lineNum="43" pc="268439571" symbol="onSelectable"/>
-        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxDelegate.mc" id="44" lineNum="44" pc="268439585" symbol="onSelectable"/>
-        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxDelegate.mc" id="44" lineNum="46" pc="268439625" symbol="onSelectable"/>
-        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxDelegate.mc" id="45" lineNum="49" pc="268439629" symbol="onMenu"/>
-        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxDelegate.mc" id="45" lineNum="50" pc="268439633" symbol="onMenu"/>
-        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxDelegate.mc" id="45" lineNum="52" pc="268439656" symbol="onMenu"/>
-        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxDelegate.mc" id="45" lineNum="53" pc="268439672" symbol="onMenu"/>
-        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxDelegate.mc" id="45" lineNum="55" pc="268439689" symbol="onMenu"/>
-        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxDelegate.mc" id="45" lineNum="56" pc="268439706" symbol="onMenu"/>
-        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxDelegate.mc" id="45" lineNum="57" pc="268439732" symbol="onMenu"/>
-        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxDelegate.mc" id="46" lineNum="60" pc="268439736" symbol="onBack"/>
-        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxDelegate.mc" id="46" lineNum="62" pc="268439740" symbol="onBack"/>
-        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxDelegate.mc" id="46" lineNum="63" pc="268439760" symbol="onBack"/>
-        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxDelegate.mc" id="46" lineNum="64" pc="268439783" symbol="onBack"/>
-        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxDelegate.mc" id="46" lineNum="66" pc="268439804" symbol="onBack"/>
-        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxDelegate.mc" id="46" lineNum="67" pc="268439820" symbol="onBack"/>
-        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxDelegate.mc" id="46" lineNum="68" pc="268439837" symbol="onBack"/>
-        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxDelegate.mc" id="46" lineNum="70" pc="268439860" symbol="onBack"/>
-        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxDelegate.mc" id="47" lineNum="73" pc="268439864" symbol="onNextMode"/>
-        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxDelegate.mc" id="47" lineNum="74" pc="268439868" symbol="onNextMode"/>
-        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxDelegate.mc" id="47" lineNum="75" pc="268439891" symbol="onNextMode"/>
-        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxDelegate.mc" id="47" lineNum="76" pc="268439907" symbol="onNextMode"/>
-        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxDelegate.mc" id="47" lineNum="77" pc="268439924" symbol="onNextMode"/>
-        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxDelegate.mc" id="48" lineNum="80" pc="268439928" symbol="onPreviousMode"/>
-        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxDelegate.mc" id="48" lineNum="81" pc="268439932" symbol="onPreviousMode"/>
-        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxDelegate.mc" id="48" lineNum="82" pc="268439955" symbol="onPreviousMode"/>
-        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxDelegate.mc" id="48" lineNum="83" pc="268439971" symbol="onPreviousMode"/>
-        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxDelegate.mc" id="48" lineNum="84" pc="268439988" symbol="onPreviousMode"/>
-        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxDelegate.mc" id="49" lineNum="87" pc="268439992" symbol="onSelect"/>
-        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxDelegate.mc" id="49" lineNum="88" pc="268439996" symbol="onSelect"/>
-        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxDelegate.mc" id="49" lineNum="89" pc="268440019" symbol="onSelect"/>
-        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxDelegate.mc" id="49" lineNum="90" pc="268440035" symbol="onSelect"/>
-        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxDelegate.mc" id="49" lineNum="91" pc="268440052" symbol="onSelect"/>
-        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxDelegate.mc" id="50" lineNum="94" pc="268440056" symbol="onTap"/>
-        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxDelegate.mc" id="50" lineNum="95" pc="268440060" symbol="onTap"/>
-        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxDelegate.mc" id="50" lineNum="96" pc="268440083" symbol="onTap"/>
-        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxDelegate.mc" id="50" lineNum="97" pc="268440100" symbol="onTap"/>
-        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxDelegate.mc" id="51" lineNum="100" pc="268440104" symbol="onHold"/>
-        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxDelegate.mc" id="51" lineNum="101" pc="268440108" symbol="onHold"/>
-        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxDelegate.mc" id="51" lineNum="102" pc="268440131" symbol="onHold"/>
-        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxDelegate.mc" id="51" lineNum="103" pc="268440148" symbol="onHold"/>
-        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxDelegate.mc" id="52" lineNum="106" pc="268440152" symbol="onRelease"/>
-        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxDelegate.mc" id="52" lineNum="107" pc="268440156" symbol="onRelease"/>
-        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxDelegate.mc" id="52" lineNum="108" pc="268440179" symbol="onRelease"/>
-        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxDelegate.mc" id="52" lineNum="109" pc="268440196" symbol="onRelease"/>
-        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxDelegate.mc" id="53" lineNum="112" pc="268440200" symbol="onSwipe"/>
-        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxDelegate.mc" id="53" lineNum="113" pc="268440204" symbol="onSwipe"/>
-        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxDelegate.mc" id="53" lineNum="115" pc="268440217" symbol="onSwipe"/>
-        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxDelegate.mc" id="53" lineNum="116" pc="268440231" symbol="onSwipe"/>
-        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxDelegate.mc" id="53" lineNum="117" pc="268440254" symbol="onSwipe"/>
-        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxDelegate.mc" id="53" lineNum="118" pc="268440278" symbol="onSwipe"/>
-        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxDelegate.mc" id="53" lineNum="119" pc="268440302" symbol="onSwipe"/>
-        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxDelegate.mc" id="53" lineNum="120" pc="268440330" symbol="onSwipe"/>
-        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxDelegate.mc" id="53" lineNum="121" pc="268440350" symbol="onSwipe"/>
-        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxDelegate.mc" id="53" lineNum="122" pc="268440364" symbol="onSwipe"/>
-        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxDelegate.mc" id="53" lineNum="123" pc="268440387" symbol="onSwipe"/>
-        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxDelegate.mc" id="53" lineNum="124" pc="268440407" symbol="onSwipe"/>
-        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxDelegate.mc" id="53" lineNum="125" pc="268440421" symbol="onSwipe"/>
-        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxDelegate.mc" id="53" lineNum="126" pc="268440444" symbol="onSwipe"/>
-        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxDelegate.mc" id="53" lineNum="127" pc="268440464" symbol="onSwipe"/>
-        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxDelegate.mc" id="53" lineNum="128" pc="268440478" symbol="onSwipe"/>
-        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxDelegate.mc" id="53" lineNum="129" pc="268440501" symbol="onSwipe"/>
-        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxDelegate.mc" id="53" lineNum="132" pc="268440521" symbol="onSwipe"/>
-        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxDelegate.mc" id="54" lineNum="135" pc="268440525" symbol="onNextPage"/>
-        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxDelegate.mc" id="54" lineNum="136" pc="268440529" symbol="onNextPage"/>
-        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxDelegate.mc" id="54" lineNum="137" pc="268440552" symbol="onNextPage"/>
-        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxDelegate.mc" id="54" lineNum="138" pc="268440568" symbol="onNextPage"/>
-        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxDelegate.mc" id="54" lineNum="139" pc="268440585" symbol="onNextPage"/>
-        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxDelegate.mc" id="55" lineNum="143" pc="268440610" symbol="pushMenu"/>
-        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxDelegate.mc" id="55" lineNum="144" pc="268440614" symbol="pushMenu"/>
-        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxDelegate.mc" id="55" lineNum="146" pc="268440637" symbol="pushMenu"/>
-        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxDelegate.mc" id="55" lineNum="148" pc="268440661" symbol="pushMenu"/>
-        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxDelegate.mc" id="55" lineNum="149" pc="268440685" symbol="pushMenu"/>
-        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxDelegate.mc" id="55" lineNum="150" pc="268440707" symbol="pushMenu"/>
-        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxDelegate.mc" id="56" lineNum="153" pc="268440711" symbol="onKeyPressed"/>
-        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxDelegate.mc" id="56" lineNum="154" pc="268440715" symbol="onKeyPressed"/>
-        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxDelegate.mc" id="56" lineNum="155" pc="268440738" symbol="onKeyPressed"/>
-        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxDelegate.mc" id="56" lineNum="156" pc="268440762" symbol="onKeyPressed"/>
-        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxDelegate.mc" id="56" lineNum="157" pc="268440769" symbol="onKeyPressed"/>
-        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxDelegate.mc" id="56" lineNum="160" pc="268440792" symbol="onKeyPressed"/>
-        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxDelegate.mc" id="57" lineNum="163" pc="268440796" symbol="onKeyReleased"/>
-        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxDelegate.mc" id="57" lineNum="164" pc="268440800" symbol="onKeyReleased"/>
-        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxDelegate.mc" id="57" lineNum="165" pc="268440823" symbol="onKeyReleased"/>
-        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxDelegate.mc" id="57" lineNum="166" pc="268440847" symbol="onKeyReleased"/>
-        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxDelegate.mc" id="57" lineNum="167" pc="268440854" symbol="onKeyReleased"/>
-        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxDelegate.mc" id="57" lineNum="170" pc="268440877" symbol="onKeyReleased"/>
-        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxDelegate.mc" id="58" lineNum="173" pc="268440881" symbol="getKeyString"/>
-        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxDelegate.mc" id="58" lineNum="174" pc="268440885" symbol="getKeyString"/>
-        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxDelegate.mc" id="58" lineNum="175" pc="268440908" symbol="getKeyString"/>
-        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxDelegate.mc" id="58" lineNum="176" pc="268440922" symbol="getKeyString"/>
-        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxDelegate.mc" id="58" lineNum="177" pc="268440931" symbol="getKeyString"/>
-        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxDelegate.mc" id="58" lineNum="178" pc="268440945" symbol="getKeyString"/>
-        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxDelegate.mc" id="58" lineNum="179" pc="268440954" symbol="getKeyString"/>
-        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxDelegate.mc" id="58" lineNum="180" pc="268440968" symbol="getKeyString"/>
-        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxDelegate.mc" id="58" lineNum="181" pc="268440977" symbol="getKeyString"/>
-        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxDelegate.mc" id="58" lineNum="182" pc="268440991" symbol="getKeyString"/>
-        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxDelegate.mc" id="58" lineNum="183" pc="268441000" symbol="getKeyString"/>
-        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxDelegate.mc" id="58" lineNum="184" pc="268441014" symbol="getKeyString"/>
-        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxDelegate.mc" id="58" lineNum="185" pc="268441023" symbol="getKeyString"/>
-        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxDelegate.mc" id="58" lineNum="186" pc="268441037" symbol="getKeyString"/>
-        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxDelegate.mc" id="58" lineNum="187" pc="268441046" symbol="getKeyString"/>
-        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxDelegate.mc" id="58" lineNum="188" pc="268441060" symbol="getKeyString"/>
-        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxDelegate.mc" id="58" lineNum="189" pc="268441069" symbol="getKeyString"/>
-        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxDelegate.mc" id="58" lineNum="190" pc="268441083" symbol="getKeyString"/>
-        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxDelegate.mc" id="58" lineNum="191" pc="268441092" symbol="getKeyString"/>
-        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxDelegate.mc" id="58" lineNum="192" pc="268441106" symbol="getKeyString"/>
-        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxDelegate.mc" id="58" lineNum="193" pc="268441115" symbol="getKeyString"/>
-        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxDelegate.mc" id="58" lineNum="194" pc="268441129" symbol="getKeyString"/>
-        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxDelegate.mc" id="58" lineNum="195" pc="268441138" symbol="getKeyString"/>
-        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxDelegate.mc" id="58" lineNum="196" pc="268441152" symbol="getKeyString"/>
-        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxDelegate.mc" id="58" lineNum="197" pc="268441161" symbol="getKeyString"/>
-        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxDelegate.mc" id="58" lineNum="198" pc="268441175" symbol="getKeyString"/>
-        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxDelegate.mc" id="58" lineNum="199" pc="268441184" symbol="getKeyString"/>
-        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxDelegate.mc" id="58" lineNum="200" pc="268441198" symbol="getKeyString"/>
-        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxDelegate.mc" id="58" lineNum="201" pc="268441207" symbol="getKeyString"/>
-        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxDelegate.mc" id="58" lineNum="202" pc="268441221" symbol="getKeyString"/>
-        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxDelegate.mc" id="58" lineNum="203" pc="268441230" symbol="getKeyString"/>
-        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxDelegate.mc" id="58" lineNum="204" pc="268441244" symbol="getKeyString"/>
-        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxDelegate.mc" id="58" lineNum="205" pc="268441253" symbol="getKeyString"/>
-        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxDelegate.mc" id="58" lineNum="206" pc="268441267" symbol="getKeyString"/>
-        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxDelegate.mc" id="58" lineNum="207" pc="268441276" symbol="getKeyString"/>
-        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxDelegate.mc" id="58" lineNum="208" pc="268441290" symbol="getKeyString"/>
-        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxDelegate.mc" id="58" lineNum="209" pc="268441299" symbol="getKeyString"/>
-        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxDelegate.mc" id="58" lineNum="210" pc="268441313" symbol="getKeyString"/>
-        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxDelegate.mc" id="58" lineNum="211" pc="268441322" symbol="getKeyString"/>
-        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxDelegate.mc" id="58" lineNum="212" pc="268441336" symbol="getKeyString"/>
-        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxDelegate.mc" id="58" lineNum="213" pc="268441345" symbol="getKeyString"/>
-        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxDelegate.mc" id="58" lineNum="214" pc="268441359" symbol="getKeyString"/>
-        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxDelegate.mc" id="58" lineNum="215" pc="268441368" symbol="getKeyString"/>
-        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxDelegate.mc" id="58" lineNum="216" pc="268441382" symbol="getKeyString"/>
-        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxDelegate.mc" id="58" lineNum="217" pc="268441391" symbol="getKeyString"/>
-        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxDelegate.mc" id="58" lineNum="218" pc="268441405" symbol="getKeyString"/>
-        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxDelegate.mc" id="58" lineNum="219" pc="268441414" symbol="getKeyString"/>
-        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxDelegate.mc" id="58" lineNum="220" pc="268441428" symbol="getKeyString"/>
-        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxDelegate.mc" id="58" lineNum="223" pc="268441437" symbol="getKeyString"/>
-        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxDelegate.mc" id="59" lineNum="226" pc="268441440" symbol="onKey"/>
-        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxDelegate.mc" id="59" lineNum="227" pc="268441444" symbol="onKey"/>
-        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxDelegate.mc" id="59" lineNum="229" pc="268441467" symbol="onKey"/>
-        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxDelegate.mc" id="59" lineNum="230" pc="268441480" symbol="onKey"/>
-        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxDelegate.mc" id="59" lineNum="232" pc="268441495" symbol="onKey"/>
-        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxDelegate.mc" id="59" lineNum="233" pc="268441502" symbol="onKey"/>
-        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxDelegate.mc" id="59" lineNum="236" pc="268441519" symbol="onKey"/>
-        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxDelegate.mc" id="59" lineNum="237" pc="268441533" symbol="onKey"/>
-        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxDelegate.mc" id="59" lineNum="238" pc="268441553" symbol="onKey"/>
-        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxDelegate.mc" id="59" lineNum="242" pc="268441577" symbol="onKey"/>
-        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxDelegate.mc" id="59" lineNum="243" pc="268441591" symbol="onKey"/>
-        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxDelegate.mc" id="59" lineNum="246" pc="268441618" symbol="onKey"/>
-        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxDelegate.mc" id="59" lineNum="247" pc="268441628" symbol="onKey"/>
-        <entry filename="Rez" id="63" lineNum="21" pc="268441632" symbol="initialize"/>
-        <entry filename="Rez" id="63" lineNum="22" pc="268441636" symbol="initialize"/>
-        <entry filename="Rez" id="64" lineNum="25" pc="268441661" symbol="draw"/>
-        <entry filename="Rez" id="64" lineNum="27" pc="268441665" symbol="draw"/>
-        <entry filename="Rez" id="64" lineNum="28" pc="268441701" symbol="draw"/>
-        <entry filename="Rez" id="64" lineNum="29" pc="268441757" symbol="draw"/>
-        <entry filename="Rez" id="64" lineNum="31" pc="268441793" symbol="draw"/>
-        <entry filename="Rez" id="64" lineNum="32" pc="268441829" symbol="draw"/>
-        <entry filename="Rez" id="64" lineNum="34" pc="268441861" symbol="draw"/>
-        <entry filename="Rez" id="64" lineNum="35" pc="268441897" symbol="draw"/>
-        <entry filename="Rez" id="68" lineNum="52" pc="268441930" symbol="ButtonLayout"/>
-        <entry filename="Rez" id="68" lineNum="54" pc="268441942" symbol="ButtonLayout"/>
-        <entry filename="Rez" id="68" lineNum="56" pc="268441955" symbol="ButtonLayout"/>
-        <entry filename="Rez" id="68" lineNum="57" pc="268442319" symbol="ButtonLayout"/>
-        <entry filename="Rez" id="68" lineNum="59" pc="268442683" symbol="ButtonLayout"/>
-        <entry filename="Rez" id="69" lineNum="68" pc="268442711" symbol="ClearLayout"/>
-        <entry filename="Rez" id="69" lineNum="70" pc="268442723" symbol="ClearLayout"/>
-        <entry filename="Rez" id="69" lineNum="71" pc="268442736" symbol="ClearLayout"/>
-        <entry filename="Rez" id="69" lineNum="73" pc="268442749" symbol="ClearLayout"/>
-        <entry filename="Rez" id="69" lineNum="75" pc="268442947" symbol="ClearLayout"/>
-        <entry filename="Rez" id="70" lineNum="84" pc="268442965" symbol="PhoneLayout"/>
-        <entry filename="Rez" id="70" lineNum="86" pc="268442977" symbol="PhoneLayout"/>
-        <entry filename="Rez" id="70" lineNum="87" pc="268442990" symbol="PhoneLayout"/>
-        <entry filename="Rez" id="70" lineNum="89" pc="268443003" symbol="PhoneLayout"/>
-        <entry filename="Rez" id="70" lineNum="91" pc="268443201" symbol="PhoneLayout"/>
+        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxView.mc" id="30" lineNum="151" pc="268437588" symbol="initialize"/>
+        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxView.mc" id="30" lineNum="152" pc="268437650" symbol="initialize"/>
+        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxView.mc" id="30" lineNum="153" pc="268437712" symbol="initialize"/>
+        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxView.mc" id="30" lineNum="156" pc="268437726" symbol="initialize"/>
+        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxView.mc" id="30" lineNum="158" pc="268437739" symbol="initialize"/>
+        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxView.mc" id="30" lineNum="160" pc="268437753" symbol="initialize"/>
+        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxView.mc" id="30" lineNum="161" pc="268437753" symbol="initialize"/>
+        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxView.mc" id="30" lineNum="162" pc="268437779" symbol="initialize"/>
+        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxView.mc" id="30" lineNum="163" pc="268437786" symbol="initialize"/>
+        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxView.mc" id="30" lineNum="164" pc="268437805" symbol="initialize"/>
+        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxView.mc" id="30" lineNum="165" pc="268437821" symbol="initialize"/>
+        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxView.mc" id="30" lineNum="166" pc="268437831" symbol="initialize"/>
+        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxView.mc" id="30" lineNum="169" pc="268437868" symbol="initialize"/>
+        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxView.mc" id="30" lineNum="170" pc="268437875" symbol="initialize"/>
+        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxView.mc" id="30" lineNum="171" pc="268437894" symbol="initialize"/>
+        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxView.mc" id="30" lineNum="174" pc="268437910" symbol="initialize"/>
+        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxView.mc" id="30" lineNum="177" pc="268437917" symbol="initialize"/>
+        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxView.mc" id="30" lineNum="183" pc="268437924" symbol="initialize"/>
+        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxView.mc" id="30" lineNum="196" pc="268438031" symbol="initialize"/>
+        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxView.mc" id="30" lineNum="198" pc="268438069" symbol="initialize"/>
+        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxView.mc" id="30" lineNum="213" pc="268438179" symbol="initialize"/>
+        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxView.mc" id="31" lineNum="217" pc="268438218" symbol="getList"/>
+        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxView.mc" id="31" lineNum="218" pc="268438222" symbol="getList"/>
+        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxView.mc" id="31" lineNum="219" pc="268438245" symbol="getList"/>
+        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxView.mc" id="32" lineNum="223" pc="268438255" symbol="handleEvent"/>
+        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxView.mc" id="32" lineNum="225" pc="268438259" symbol="handleEvent"/>
+        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxView.mc" id="32" lineNum="226" pc="268438276" symbol="handleEvent"/>
+        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxView.mc" id="32" lineNum="227" pc="268438296" symbol="handleEvent"/>
+        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxView.mc" id="32" lineNum="228" pc="268438320" symbol="handleEvent"/>
+        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxView.mc" id="32" lineNum="229" pc="268438344" symbol="handleEvent"/>
+        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxView.mc" id="32" lineNum="232" pc="268438382" symbol="handleEvent"/>
+        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxView.mc" id="34" lineNum="266" pc="268438403" symbol="initialize"/>
+        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxView.mc" id="34" lineNum="267" pc="268438407" symbol="initialize"/>
+        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxView.mc" id="34" lineNum="268" pc="268438430" symbol="initialize"/>
+        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxView.mc" id="34" lineNum="270" pc="268438448" symbol="initialize"/>
+        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxView.mc" id="34" lineNum="271" pc="268438461" symbol="initialize"/>
+        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxView.mc" id="34" lineNum="272" pc="268438474" symbol="initialize"/>
+        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxView.mc" id="34" lineNum="273" pc="268438487" symbol="initialize"/>
+        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxView.mc" id="34" lineNum="274" pc="268438500" symbol="initialize"/>
+        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxView.mc" id="34" lineNum="276" pc="268438513" symbol="initialize"/>
+        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxView.mc" id="35" lineNum="280" pc="268438524" symbol="onLayout"/>
+        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxView.mc" id="35" lineNum="281" pc="268438528" symbol="onLayout"/>
+        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxView.mc" id="35" lineNum="282" pc="268438551" symbol="onLayout"/>
+        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxView.mc" id="35" lineNum="283" pc="268438583" symbol="onLayout"/>
+        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxView.mc" id="36" lineNum="287" pc="268438613" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxView.mc" id="36" lineNum="288" pc="268438617" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxView.mc" id="36" lineNum="289" pc="268438640" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxView.mc" id="36" lineNum="292" pc="268438660" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxView.mc" id="36" lineNum="293" pc="268438696" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxView.mc" id="36" lineNum="294" pc="268438715" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxView.mc" id="36" lineNum="300" pc="268438722" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxView.mc" id="36" lineNum="301" pc="268438758" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxView.mc" id="36" lineNum="302" pc="268438824" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxView.mc" id="36" lineNum="303" pc="268438914" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\PhoneView.mc" id="38" lineNum="14" pc="268439005" symbol="initialize"/>
+        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\PhoneView.mc" id="38" lineNum="15" pc="268439009" symbol="initialize"/>
+        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\PhoneView.mc" id="38" lineNum="16" pc="268439032" symbol="initialize"/>
+        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\PhoneView.mc" id="38" lineNum="17" pc="268439050" symbol="initialize"/>
+        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\PhoneView.mc" id="39" lineNum="21" pc="268439145" symbol="onLayout"/>
+        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\PhoneView.mc" id="39" lineNum="22" pc="268439149" symbol="onLayout"/>
+        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\PhoneView.mc" id="39" lineNum="23" pc="268439172" symbol="onLayout"/>
+        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\PhoneView.mc" id="40" lineNum="27" pc="268439210" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\PhoneView.mc" id="40" lineNum="28" pc="268439214" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\PhoneView.mc" id="40" lineNum="29" pc="268439237" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\PhoneView.mc" id="40" lineNum="30" pc="268439257" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxDelegate.mc" id="42" lineNum="25" pc="268439278" symbol="initialize"/>
+        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxDelegate.mc" id="42" lineNum="26" pc="268439282" symbol="initialize"/>
+        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxDelegate.mc" id="42" lineNum="27" pc="268439305" symbol="initialize"/>
+        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxDelegate.mc" id="43" lineNum="30" pc="268439324" symbol="onPreviousPage"/>
+        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxDelegate.mc" id="43" lineNum="31" pc="268439328" symbol="onPreviousPage"/>
+        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxDelegate.mc" id="43" lineNum="32" pc="268439351" symbol="onPreviousPage"/>
+        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxDelegate.mc" id="43" lineNum="33" pc="268439367" symbol="onPreviousPage"/>
+        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxDelegate.mc" id="43" lineNum="34" pc="268439384" symbol="onPreviousPage"/>
+        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxDelegate.mc" id="44" lineNum="37" pc="268439388" symbol="onSelectable"/>
+        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxDelegate.mc" id="44" lineNum="38" pc="268439392" symbol="onSelectable"/>
+        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxDelegate.mc" id="44" lineNum="39" pc="268439415" symbol="onSelectable"/>
+        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxDelegate.mc" id="44" lineNum="41" pc="268439428" symbol="onSelectable"/>
+        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxDelegate.mc" id="44" lineNum="42" pc="268439454" symbol="onSelectable"/>
+        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxDelegate.mc" id="44" lineNum="43" pc="268439489" symbol="onSelectable"/>
+        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxDelegate.mc" id="44" lineNum="44" pc="268439503" symbol="onSelectable"/>
+        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxDelegate.mc" id="44" lineNum="46" pc="268439543" symbol="onSelectable"/>
+        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxDelegate.mc" id="45" lineNum="49" pc="268439547" symbol="onMenu"/>
+        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxDelegate.mc" id="45" lineNum="50" pc="268439551" symbol="onMenu"/>
+        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxDelegate.mc" id="45" lineNum="52" pc="268439574" symbol="onMenu"/>
+        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxDelegate.mc" id="45" lineNum="53" pc="268439590" symbol="onMenu"/>
+        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxDelegate.mc" id="45" lineNum="55" pc="268439607" symbol="onMenu"/>
+        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxDelegate.mc" id="45" lineNum="56" pc="268439624" symbol="onMenu"/>
+        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxDelegate.mc" id="45" lineNum="57" pc="268439650" symbol="onMenu"/>
+        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxDelegate.mc" id="46" lineNum="60" pc="268439654" symbol="onBack"/>
+        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxDelegate.mc" id="46" lineNum="62" pc="268439658" symbol="onBack"/>
+        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxDelegate.mc" id="46" lineNum="63" pc="268439678" symbol="onBack"/>
+        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxDelegate.mc" id="46" lineNum="64" pc="268439701" symbol="onBack"/>
+        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxDelegate.mc" id="46" lineNum="66" pc="268439722" symbol="onBack"/>
+        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxDelegate.mc" id="46" lineNum="67" pc="268439738" symbol="onBack"/>
+        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxDelegate.mc" id="46" lineNum="68" pc="268439755" symbol="onBack"/>
+        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxDelegate.mc" id="46" lineNum="70" pc="268439778" symbol="onBack"/>
+        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxDelegate.mc" id="47" lineNum="73" pc="268439782" symbol="onNextMode"/>
+        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxDelegate.mc" id="47" lineNum="74" pc="268439786" symbol="onNextMode"/>
+        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxDelegate.mc" id="47" lineNum="75" pc="268439809" symbol="onNextMode"/>
+        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxDelegate.mc" id="47" lineNum="76" pc="268439825" symbol="onNextMode"/>
+        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxDelegate.mc" id="47" lineNum="77" pc="268439842" symbol="onNextMode"/>
+        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxDelegate.mc" id="48" lineNum="80" pc="268439846" symbol="onPreviousMode"/>
+        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxDelegate.mc" id="48" lineNum="81" pc="268439850" symbol="onPreviousMode"/>
+        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxDelegate.mc" id="48" lineNum="82" pc="268439873" symbol="onPreviousMode"/>
+        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxDelegate.mc" id="48" lineNum="83" pc="268439889" symbol="onPreviousMode"/>
+        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxDelegate.mc" id="48" lineNum="84" pc="268439906" symbol="onPreviousMode"/>
+        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxDelegate.mc" id="49" lineNum="87" pc="268439910" symbol="onSelect"/>
+        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxDelegate.mc" id="49" lineNum="88" pc="268439914" symbol="onSelect"/>
+        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxDelegate.mc" id="49" lineNum="89" pc="268439937" symbol="onSelect"/>
+        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxDelegate.mc" id="49" lineNum="90" pc="268439953" symbol="onSelect"/>
+        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxDelegate.mc" id="49" lineNum="91" pc="268439970" symbol="onSelect"/>
+        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxDelegate.mc" id="50" lineNum="94" pc="268439974" symbol="onTap"/>
+        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxDelegate.mc" id="50" lineNum="95" pc="268439978" symbol="onTap"/>
+        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxDelegate.mc" id="50" lineNum="96" pc="268440001" symbol="onTap"/>
+        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxDelegate.mc" id="50" lineNum="97" pc="268440018" symbol="onTap"/>
+        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxDelegate.mc" id="51" lineNum="100" pc="268440022" symbol="onHold"/>
+        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxDelegate.mc" id="51" lineNum="101" pc="268440026" symbol="onHold"/>
+        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxDelegate.mc" id="51" lineNum="102" pc="268440049" symbol="onHold"/>
+        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxDelegate.mc" id="51" lineNum="103" pc="268440066" symbol="onHold"/>
+        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxDelegate.mc" id="52" lineNum="106" pc="268440070" symbol="onRelease"/>
+        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxDelegate.mc" id="52" lineNum="107" pc="268440074" symbol="onRelease"/>
+        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxDelegate.mc" id="52" lineNum="108" pc="268440097" symbol="onRelease"/>
+        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxDelegate.mc" id="52" lineNum="109" pc="268440114" symbol="onRelease"/>
+        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxDelegate.mc" id="53" lineNum="112" pc="268440118" symbol="onSwipe"/>
+        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxDelegate.mc" id="53" lineNum="113" pc="268440122" symbol="onSwipe"/>
+        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxDelegate.mc" id="53" lineNum="115" pc="268440135" symbol="onSwipe"/>
+        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxDelegate.mc" id="53" lineNum="116" pc="268440149" symbol="onSwipe"/>
+        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxDelegate.mc" id="53" lineNum="117" pc="268440172" symbol="onSwipe"/>
+        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxDelegate.mc" id="53" lineNum="118" pc="268440192" symbol="onSwipe"/>
+        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxDelegate.mc" id="53" lineNum="119" pc="268440206" symbol="onSwipe"/>
+        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxDelegate.mc" id="53" lineNum="120" pc="268440229" symbol="onSwipe"/>
+        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxDelegate.mc" id="53" lineNum="121" pc="268440249" symbol="onSwipe"/>
+        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxDelegate.mc" id="53" lineNum="122" pc="268440263" symbol="onSwipe"/>
+        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxDelegate.mc" id="53" lineNum="123" pc="268440286" symbol="onSwipe"/>
+        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxDelegate.mc" id="53" lineNum="124" pc="268440303" symbol="onSwipe"/>
+        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxDelegate.mc" id="53" lineNum="125" pc="268440327" symbol="onSwipe"/>
+        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxDelegate.mc" id="53" lineNum="126" pc="268440351" symbol="onSwipe"/>
+        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxDelegate.mc" id="53" lineNum="127" pc="268440382" symbol="onSwipe"/>
+        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxDelegate.mc" id="53" lineNum="128" pc="268440396" symbol="onSwipe"/>
+        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxDelegate.mc" id="53" lineNum="129" pc="268440419" symbol="onSwipe"/>
+        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxDelegate.mc" id="53" lineNum="132" pc="268440439" symbol="onSwipe"/>
+        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxDelegate.mc" id="54" lineNum="135" pc="268440443" symbol="onNextPage"/>
+        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxDelegate.mc" id="54" lineNum="136" pc="268440447" symbol="onNextPage"/>
+        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxDelegate.mc" id="54" lineNum="137" pc="268440470" symbol="onNextPage"/>
+        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxDelegate.mc" id="54" lineNum="138" pc="268440486" symbol="onNextPage"/>
+        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxDelegate.mc" id="54" lineNum="139" pc="268440503" symbol="onNextPage"/>
+        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxDelegate.mc" id="55" lineNum="143" pc="268440528" symbol="pushMenu"/>
+        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxDelegate.mc" id="55" lineNum="144" pc="268440532" symbol="pushMenu"/>
+        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxDelegate.mc" id="55" lineNum="146" pc="268440555" symbol="pushMenu"/>
+        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxDelegate.mc" id="55" lineNum="148" pc="268440579" symbol="pushMenu"/>
+        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxDelegate.mc" id="55" lineNum="149" pc="268440603" symbol="pushMenu"/>
+        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxDelegate.mc" id="55" lineNum="150" pc="268440625" symbol="pushMenu"/>
+        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxDelegate.mc" id="56" lineNum="153" pc="268440629" symbol="onKeyPressed"/>
+        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxDelegate.mc" id="56" lineNum="154" pc="268440633" symbol="onKeyPressed"/>
+        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxDelegate.mc" id="56" lineNum="155" pc="268440656" symbol="onKeyPressed"/>
+        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxDelegate.mc" id="56" lineNum="156" pc="268440680" symbol="onKeyPressed"/>
+        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxDelegate.mc" id="56" lineNum="157" pc="268440687" symbol="onKeyPressed"/>
+        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxDelegate.mc" id="56" lineNum="160" pc="268440710" symbol="onKeyPressed"/>
+        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxDelegate.mc" id="57" lineNum="163" pc="268440714" symbol="onKeyReleased"/>
+        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxDelegate.mc" id="57" lineNum="164" pc="268440718" symbol="onKeyReleased"/>
+        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxDelegate.mc" id="57" lineNum="165" pc="268440741" symbol="onKeyReleased"/>
+        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxDelegate.mc" id="57" lineNum="166" pc="268440765" symbol="onKeyReleased"/>
+        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxDelegate.mc" id="57" lineNum="167" pc="268440772" symbol="onKeyReleased"/>
+        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxDelegate.mc" id="57" lineNum="170" pc="268440795" symbol="onKeyReleased"/>
+        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxDelegate.mc" id="58" lineNum="173" pc="268440799" symbol="getKeyString"/>
+        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxDelegate.mc" id="58" lineNum="174" pc="268440803" symbol="getKeyString"/>
+        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxDelegate.mc" id="58" lineNum="175" pc="268440826" symbol="getKeyString"/>
+        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxDelegate.mc" id="58" lineNum="176" pc="268440840" symbol="getKeyString"/>
+        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxDelegate.mc" id="58" lineNum="177" pc="268440849" symbol="getKeyString"/>
+        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxDelegate.mc" id="58" lineNum="178" pc="268440863" symbol="getKeyString"/>
+        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxDelegate.mc" id="58" lineNum="179" pc="268440872" symbol="getKeyString"/>
+        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxDelegate.mc" id="58" lineNum="180" pc="268440886" symbol="getKeyString"/>
+        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxDelegate.mc" id="58" lineNum="181" pc="268440895" symbol="getKeyString"/>
+        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxDelegate.mc" id="58" lineNum="182" pc="268440909" symbol="getKeyString"/>
+        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxDelegate.mc" id="58" lineNum="183" pc="268440918" symbol="getKeyString"/>
+        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxDelegate.mc" id="58" lineNum="184" pc="268440932" symbol="getKeyString"/>
+        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxDelegate.mc" id="58" lineNum="185" pc="268440941" symbol="getKeyString"/>
+        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxDelegate.mc" id="58" lineNum="186" pc="268440955" symbol="getKeyString"/>
+        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxDelegate.mc" id="58" lineNum="187" pc="268440964" symbol="getKeyString"/>
+        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxDelegate.mc" id="58" lineNum="188" pc="268440978" symbol="getKeyString"/>
+        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxDelegate.mc" id="58" lineNum="189" pc="268440987" symbol="getKeyString"/>
+        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxDelegate.mc" id="58" lineNum="190" pc="268441001" symbol="getKeyString"/>
+        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxDelegate.mc" id="58" lineNum="191" pc="268441010" symbol="getKeyString"/>
+        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxDelegate.mc" id="58" lineNum="192" pc="268441024" symbol="getKeyString"/>
+        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxDelegate.mc" id="58" lineNum="193" pc="268441033" symbol="getKeyString"/>
+        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxDelegate.mc" id="58" lineNum="194" pc="268441047" symbol="getKeyString"/>
+        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxDelegate.mc" id="58" lineNum="195" pc="268441056" symbol="getKeyString"/>
+        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxDelegate.mc" id="58" lineNum="196" pc="268441070" symbol="getKeyString"/>
+        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxDelegate.mc" id="58" lineNum="197" pc="268441079" symbol="getKeyString"/>
+        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxDelegate.mc" id="58" lineNum="198" pc="268441093" symbol="getKeyString"/>
+        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxDelegate.mc" id="58" lineNum="199" pc="268441102" symbol="getKeyString"/>
+        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxDelegate.mc" id="58" lineNum="200" pc="268441116" symbol="getKeyString"/>
+        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxDelegate.mc" id="58" lineNum="201" pc="268441125" symbol="getKeyString"/>
+        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxDelegate.mc" id="58" lineNum="202" pc="268441139" symbol="getKeyString"/>
+        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxDelegate.mc" id="58" lineNum="203" pc="268441148" symbol="getKeyString"/>
+        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxDelegate.mc" id="58" lineNum="204" pc="268441162" symbol="getKeyString"/>
+        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxDelegate.mc" id="58" lineNum="205" pc="268441171" symbol="getKeyString"/>
+        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxDelegate.mc" id="58" lineNum="206" pc="268441185" symbol="getKeyString"/>
+        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxDelegate.mc" id="58" lineNum="207" pc="268441194" symbol="getKeyString"/>
+        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxDelegate.mc" id="58" lineNum="208" pc="268441208" symbol="getKeyString"/>
+        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxDelegate.mc" id="58" lineNum="209" pc="268441217" symbol="getKeyString"/>
+        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxDelegate.mc" id="58" lineNum="210" pc="268441231" symbol="getKeyString"/>
+        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxDelegate.mc" id="58" lineNum="211" pc="268441240" symbol="getKeyString"/>
+        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxDelegate.mc" id="58" lineNum="212" pc="268441254" symbol="getKeyString"/>
+        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxDelegate.mc" id="58" lineNum="213" pc="268441263" symbol="getKeyString"/>
+        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxDelegate.mc" id="58" lineNum="214" pc="268441277" symbol="getKeyString"/>
+        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxDelegate.mc" id="58" lineNum="215" pc="268441286" symbol="getKeyString"/>
+        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxDelegate.mc" id="58" lineNum="216" pc="268441300" symbol="getKeyString"/>
+        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxDelegate.mc" id="58" lineNum="217" pc="268441309" symbol="getKeyString"/>
+        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxDelegate.mc" id="58" lineNum="218" pc="268441323" symbol="getKeyString"/>
+        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxDelegate.mc" id="58" lineNum="219" pc="268441332" symbol="getKeyString"/>
+        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxDelegate.mc" id="58" lineNum="220" pc="268441346" symbol="getKeyString"/>
+        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxDelegate.mc" id="58" lineNum="223" pc="268441355" symbol="getKeyString"/>
+        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxDelegate.mc" id="59" lineNum="226" pc="268441358" symbol="onKey"/>
+        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxDelegate.mc" id="59" lineNum="227" pc="268441362" symbol="onKey"/>
+        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxDelegate.mc" id="59" lineNum="229" pc="268441385" symbol="onKey"/>
+        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxDelegate.mc" id="59" lineNum="230" pc="268441398" symbol="onKey"/>
+        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxDelegate.mc" id="59" lineNum="232" pc="268441413" symbol="onKey"/>
+        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxDelegate.mc" id="59" lineNum="233" pc="268441420" symbol="onKey"/>
+        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxDelegate.mc" id="59" lineNum="236" pc="268441437" symbol="onKey"/>
+        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxDelegate.mc" id="59" lineNum="237" pc="268441451" symbol="onKey"/>
+        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxDelegate.mc" id="59" lineNum="238" pc="268441471" symbol="onKey"/>
+        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxDelegate.mc" id="59" lineNum="242" pc="268441495" symbol="onKey"/>
+        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxDelegate.mc" id="59" lineNum="243" pc="268441509" symbol="onKey"/>
+        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxDelegate.mc" id="59" lineNum="246" pc="268441536" symbol="onKey"/>
+        <entry filename="C:\\Users\\sarah\\eclipse-workspace\\Selectable\\source\\CheckBoxDelegate.mc" id="59" lineNum="247" pc="268441546" symbol="onKey"/>
+        <entry filename="Rez" id="63" lineNum="21" pc="268441550" symbol="initialize"/>
+        <entry filename="Rez" id="63" lineNum="22" pc="268441554" symbol="initialize"/>
+        <entry filename="Rez" id="64" lineNum="25" pc="268441579" symbol="draw"/>
+        <entry filename="Rez" id="64" lineNum="26" pc="268441583" symbol="draw"/>
+        <entry filename="Rez" id="64" lineNum="27" pc="268441619" symbol="draw"/>
+        <entry filename="Rez" id="64" lineNum="28" pc="268441651" symbol="draw"/>
+        <entry filename="Rez" id="64" lineNum="30" pc="268441687" symbol="draw"/>
+        <entry filename="Rez" id="64" lineNum="31" pc="268441723" symbol="draw"/>
+        <entry filename="Rez" id="64" lineNum="33" pc="268441755" symbol="draw"/>
+        <entry filename="Rez" id="64" lineNum="34" pc="268441791" symbol="draw"/>
+        <entry filename="Rez" id="68" lineNum="51" pc="268441824" symbol="ButtonLayout"/>
+        <entry filename="Rez" id="68" lineNum="53" pc="268441836" symbol="ButtonLayout"/>
+        <entry filename="Rez" id="68" lineNum="54" pc="268442191" symbol="ButtonLayout"/>
+        <entry filename="Rez" id="68" lineNum="56" pc="268442546" symbol="ButtonLayout"/>
+        <entry filename="Rez" id="69" lineNum="65" pc="268442574" symbol="ClearLayout"/>
+        <entry filename="Rez" id="69" lineNum="67" pc="268442586" symbol="ClearLayout"/>
+        <entry filename="Rez" id="69" lineNum="69" pc="268442772" symbol="ClearLayout"/>
+        <entry filename="Rez" id="70" lineNum="78" pc="268442790" symbol="PhoneLayout"/>
+        <entry filename="Rez" id="70" lineNum="80" pc="268442802" symbol="PhoneLayout"/>
+        <entry filename="Rez" id="70" lineNum="82" pc="268442988" symbol="PhoneLayout"/>
     </pcToLineNum>
     <symbolTable>
         <entry id="8388639" module="true" symbol="Graphics"/>
@@ -492,65 +486,59 @@
         <entry arg="true" endPc="268437149" name="previousState" stackId="1" startPc="268437013"/>
         <entry arg="true" endPc="268437231" name="previousState" stackId="1" startPc="268437149"/>
         <entry arg="true" endPc="268437421" name="previousState" stackId="1" startPc="268437231"/>
-        <entry endPc="268438299" name="offset" stackId="12" startPc="268437425"/>
-        <entry endPc="268438299" name="checkBoxRed" stackId="4" startPc="268437425"/>
-        <entry endPc="268438299" name="checkBoxHighlightedSelected" stackId="7" startPc="268437425"/>
-        <entry endPc="268438299" name="BORDER_PAD" stackId="2" startPc="268437425"/>
-        <entry endPc="268438299" name="checkBoxHighlighted" stackId="5" startPc="268437425"/>
-        <entry endPc="268438299" name="checkBoxSelected" stackId="6" startPc="268437425"/>
-        <entry endPc="268438299" name="checkBoxDisabled" stackId="8" startPc="268437425"/>
-        <entry endPc="268438299" name="spacing" stackId="11" startPc="268437425"/>
-        <entry endPc="268438299" name="initY" stackId="14" startPc="268437425"/>
-        <entry endPc="268438299" name="initX" stackId="13" startPc="268437425"/>
-        <entry endPc="268438299" name="dims" stackId="9" startPc="268437425"/>
-        <entry endPc="268438299" name="checkBoxDefault" stackId="3" startPc="268437425"/>
-        <entry endPc="268438299" name="optionsRed" stackId="16" startPc="268437425"/>
-        <entry endPc="268438299" name="options" stackId="15" startPc="268437425"/>
-        <entry endPc="268438299" name="slideSymbol" stackId="10" startPc="268437425"/>
-        <entry arg="true" endPc="268438300" name="dc" stackId="1" startPc="268437421"/>
-        <entry endPc="268438458" name="view" stackId="3" startPc="268438378"/>
-        <entry endPc="268438458" name="delegate" stackId="4" startPc="268438378"/>
-        <entry arg="true" endPc="268438485" name="instance" stackId="1" startPc="268438337"/>
-        <entry arg="true" endPc="268438485" name="previousState" stackId="2" startPc="268438337"/>
-        <entry arg="true" endPc="268438695" name="dc" stackId="1" startPc="268438606"/>
-        <entry endPc="268439086" name="x" stackId="2" startPc="268438699"/>
-        <entry endPc="268439086" name="y" stackId="3" startPc="268438699"/>
-        <entry arg="true" endPc="268439087" name="dc" stackId="1" startPc="268438695"/>
-        <entry arg="true" endPc="268439292" name="dc" stackId="1" startPc="268439227"/>
-        <entry arg="true" endPc="268439360" name="dc" stackId="1" startPc="268439292"/>
-        <entry endPc="268439628" name="instance" stackId="2" startPc="268439474"/>
-        <entry arg="true" endPc="268439629" name="event" stackId="1" startPc="268439470"/>
-        <entry arg="true" endPc="268440104" name="evt" stackId="1" startPc="268440056"/>
-        <entry arg="true" endPc="268440152" name="evt" stackId="1" startPc="268440104"/>
-        <entry arg="true" endPc="268440200" name="evt" stackId="1" startPc="268440152"/>
-        <entry endPc="268440347" name="view" stackId="3" startPc="268440231"/>
-        <entry endPc="268440347" name="delegate" stackId="4" startPc="268440231"/>
-        <entry endPc="268440524" name="swipe" stackId="2" startPc="268440204"/>
-        <entry arg="true" endPc="268440525" name="evt" stackId="1" startPc="268440200"/>
-        <entry endPc="268440710" name="view" stackId="2" startPc="268440614"/>
-        <entry endPc="268440710" name="delegate" stackId="3" startPc="268440614"/>
-        <entry arg="true" endPc="268440711" name="slideDir" stackId="1" startPc="268440610"/>
-        <entry endPc="268440795" name="keyString" stackId="2" startPc="268440715"/>
-        <entry arg="true" endPc="268440796" name="evt" stackId="1" startPc="268440711"/>
-        <entry endPc="268440880" name="keyString" stackId="2" startPc="268440800"/>
-        <entry arg="true" endPc="268440881" name="evt" stackId="1" startPc="268440796"/>
-        <entry arg="true" endPc="268441440" name="key" stackId="1" startPc="268440881"/>
-        <entry endPc="268441631" name="keyString" stackId="3" startPc="268441444"/>
-        <entry endPc="268441631" name="key" stackId="2" startPc="268441444"/>
-        <entry arg="true" endPc="268441632" name="evt" stackId="1" startPc="268441440"/>
-        <entry arg="true" endPc="268441930" name="dc" stackId="1" startPc="268441661"/>
-        <entry endPc="268442710" name="rez_cmp_local_custom_selectable_91496743150449412417" stackId="3" startPc="268441942"/>
-        <entry endPc="268442710" name="rez_cmp_local_var_dc_getHeight" stackId="2" startPc="268441942"/>
-        <entry endPc="268442710" name="rez_cmp_local_custom_selectable_28460423832388111969" stackId="4" startPc="268441942"/>
-        <entry arg="true" endPc="268442711" name="dc" stackId="1" startPc="268441930"/>
-        <entry endPc="268442964" name="rez_cmp_local_var_dc_getWidth" stackId="3" startPc="268442723"/>
-        <entry endPc="268442964" name="rez_cmp_local_var_dc_getHeight" stackId="2" startPc="268442723"/>
-        <entry endPc="268442964" name="rez_cmp_local_textarea_BlockOfText" stackId="4" startPc="268442723"/>
-        <entry arg="true" endPc="268442965" name="dc" stackId="1" startPc="268442711"/>
-        <entry endPc="268443218" name="rez_cmp_local_var_dc_getWidth" stackId="3" startPc="268442977"/>
-        <entry endPc="268443218" name="rez_cmp_local_var_dc_getHeight" stackId="2" startPc="268442977"/>
-        <entry endPc="268443218" name="rez_cmp_local_textarea_BlockOfText" stackId="4" startPc="268442977"/>
-        <entry arg="true" endPc="268443219" name="dc" stackId="1" startPc="268442965"/>
+        <entry endPc="268438217" name="offset" stackId="11" startPc="268437425"/>
+        <entry endPc="268438217" name="checkBoxRed" stackId="4" startPc="268437425"/>
+        <entry endPc="268438217" name="checkBoxHighlightedSelected" stackId="6" startPc="268437425"/>
+        <entry endPc="268438217" name="BORDER_PAD" stackId="2" startPc="268437425"/>
+        <entry endPc="268438217" name="checkBoxSelected" stackId="5" startPc="268437425"/>
+        <entry endPc="268438217" name="checkBoxDisabled" stackId="7" startPc="268437425"/>
+        <entry endPc="268438217" name="spacing" stackId="10" startPc="268437425"/>
+        <entry endPc="268438217" name="initY" stackId="13" startPc="268437425"/>
+        <entry endPc="268438217" name="initX" stackId="12" startPc="268437425"/>
+        <entry endPc="268438217" name="dims" stackId="8" startPc="268437425"/>
+        <entry endPc="268438217" name="checkBoxDefault" stackId="3" startPc="268437425"/>
+        <entry endPc="268438217" name="optionsRed" stackId="15" startPc="268437425"/>
+        <entry endPc="268438217" name="options" stackId="14" startPc="268437425"/>
+        <entry endPc="268438217" name="slideSymbol" stackId="9" startPc="268437425"/>
+        <entry arg="true" endPc="268438218" name="dc" stackId="1" startPc="268437421"/>
+        <entry endPc="268438376" name="view" stackId="3" startPc="268438296"/>
+        <entry endPc="268438376" name="delegate" stackId="4" startPc="268438296"/>
+        <entry arg="true" endPc="268438403" name="instance" stackId="1" startPc="268438255"/>
+        <entry arg="true" endPc="268438403" name="previousState" stackId="2" startPc="268438255"/>
+        <entry arg="true" endPc="268438613" name="dc" stackId="1" startPc="268438524"/>
+        <entry endPc="268439004" name="x" stackId="2" startPc="268438617"/>
+        <entry endPc="268439004" name="y" stackId="3" startPc="268438617"/>
+        <entry arg="true" endPc="268439005" name="dc" stackId="1" startPc="268438613"/>
+        <entry arg="true" endPc="268439210" name="dc" stackId="1" startPc="268439145"/>
+        <entry arg="true" endPc="268439278" name="dc" stackId="1" startPc="268439210"/>
+        <entry endPc="268439546" name="instance" stackId="2" startPc="268439392"/>
+        <entry arg="true" endPc="268439547" name="event" stackId="1" startPc="268439388"/>
+        <entry arg="true" endPc="268440022" name="evt" stackId="1" startPc="268439974"/>
+        <entry arg="true" endPc="268440070" name="evt" stackId="1" startPc="268440022"/>
+        <entry arg="true" endPc="268440118" name="evt" stackId="1" startPc="268440070"/>
+        <entry endPc="268440379" name="view" stackId="3" startPc="268440263"/>
+        <entry endPc="268440379" name="delegate" stackId="4" startPc="268440263"/>
+        <entry endPc="268440442" name="swipe" stackId="2" startPc="268440122"/>
+        <entry arg="true" endPc="268440443" name="evt" stackId="1" startPc="268440118"/>
+        <entry endPc="268440628" name="view" stackId="2" startPc="268440532"/>
+        <entry endPc="268440628" name="delegate" stackId="3" startPc="268440532"/>
+        <entry arg="true" endPc="268440629" name="slideDir" stackId="1" startPc="268440528"/>
+        <entry endPc="268440713" name="keyString" stackId="2" startPc="268440633"/>
+        <entry arg="true" endPc="268440714" name="evt" stackId="1" startPc="268440629"/>
+        <entry endPc="268440798" name="keyString" stackId="2" startPc="268440718"/>
+        <entry arg="true" endPc="268440799" name="evt" stackId="1" startPc="268440714"/>
+        <entry arg="true" endPc="268441358" name="key" stackId="1" startPc="268440799"/>
+        <entry endPc="268441549" name="keyString" stackId="3" startPc="268441362"/>
+        <entry endPc="268441549" name="key" stackId="2" startPc="268441362"/>
+        <entry arg="true" endPc="268441550" name="evt" stackId="1" startPc="268441358"/>
+        <entry arg="true" endPc="268441824" name="dc" stackId="1" startPc="268441579"/>
+        <entry endPc="268442573" name="rez_cmp_local_custom_selectable_12934605681269657012" stackId="3" startPc="268441836"/>
+        <entry endPc="268442573" name="rez_cmp_local_custom_selectable_14057712711197974228" stackId="2" startPc="268441836"/>
+        <entry arg="true" endPc="268442574" name="dc" stackId="1" startPc="268441824"/>
+        <entry endPc="268442789" name="rez_cmp_local_textarea_BlockOfText" stackId="2" startPc="268442586"/>
+        <entry arg="true" endPc="268442790" name="dc" stackId="1" startPc="268442574"/>
+        <entry endPc="268443005" name="rez_cmp_local_textarea_BlockOfText" stackId="2" startPc="268442802"/>
+        <entry arg="true" endPc="268443006" name="dc" stackId="1" startPc="268442790"/>
     </localVars>
     <annotations/>
     <dataEntryOffsetMappings>

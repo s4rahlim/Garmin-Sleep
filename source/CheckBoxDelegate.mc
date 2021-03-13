@@ -114,9 +114,6 @@ class CheckBoxDelegate extends WatchUi.BehaviorDelegate {
 
         if (swipe == SWIPE_UP) {
         	System.println("CheckBoxDelegate::onSwipe - SWIPE_UP");
-        	var view = new PhoneView();
-        	var delegate = new ButtonDelegate();
-        	WatchUi.pushView(view, delegate, SLIDE_IMMEDIATE);
             setActionString("SWIPE_UP");
         } else if (swipe == SWIPE_RIGHT) {
         	System.println("CheckBoxDelegate::onSwipe - SWIPE_RIGHT");
@@ -124,6 +121,9 @@ class CheckBoxDelegate extends WatchUi.BehaviorDelegate {
         } else if (swipe == SWIPE_DOWN) {
         	System.println("CheckBoxDelegate::onSwipe - SWIPE_DOWN");
             setActionString("SWIPE_DOWN");
+            var view = new PhoneView();
+        	var delegate = new ButtonDelegate();
+        	WatchUi.pushView(view, delegate, SLIDE_IMMEDIATE);
         } else if (swipe == SWIPE_LEFT) {
         	System.println("CheckBoxDelegate::onSwipe - SWIPE_LEFT");
             setActionString("SWIPE_LEFT");

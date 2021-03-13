@@ -147,7 +147,7 @@ class CheckBoxList {
         // Define our states for each CheckBox
         var checkBoxDefault = new WatchUi.Bitmap({:rezId=>Rez.Drawables.checkBoxDefault});
         var checkBoxRed = new WatchUi.Bitmap({:rezId=>Rez.Drawables.checkBoxRed});
-        var checkBoxHighlighted = new WatchUi.Bitmap({:rezId=>Rez.Drawables.checkBoxHighlighted});
+//        var checkBoxHighlighted = new WatchUi.Bitmap({:rezId=>Rez.Drawables.checkBoxHighlighted});
         var checkBoxSelected = new WatchUi.Bitmap({:rezId=>Rez.Drawables.checkBoxSelected});
         var checkBoxHighlightedSelected = new WatchUi.Bitmap({:rezId=>Rez.Drawables.checkBoxHighlightedSelected});
         var checkBoxDisabled = Graphics.COLOR_BLACK;
@@ -183,7 +183,7 @@ class CheckBoxList {
         var options = {
             :stateDefault=>checkBoxDefault,
             :identifier=>0,
-            :stateHighlighted=>checkBoxHighlighted,
+//            :stateHighlighted=>checkBoxHighlighted,
             :stateSelected=>checkBoxSelected,
             :stateDisabled=>checkBoxDisabled,
             :stateHighlightedSelected=>checkBoxHighlightedSelected,
@@ -198,7 +198,7 @@ class CheckBoxList {
 		var optionsRed = {
             :stateDefault=>checkBoxRed,
             :identifier=>1,
-            :stateHighlighted=>checkBoxHighlighted,
+//            :stateHighlighted=>checkBoxHighlighted,
             :stateSelected=>checkBoxSelected,
             :stateDisabled=>checkBoxDisabled,
             :stateHighlightedSelected=>checkBoxHighlightedSelected,
