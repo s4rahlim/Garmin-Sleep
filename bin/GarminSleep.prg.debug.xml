@@ -236,8 +236,8 @@
         <entry filename="/Users/christophershin/eclipse-workspace/GarminSleep/source/CheckBoxView.mc" id="37" lineNum="414" pc="268439966" symbol="onUpdate"/>
         <entry filename="/Users/christophershin/eclipse-workspace/GarminSleep/source/CheckBoxView.mc" id="37" lineNum="416" pc="268440065" symbol="onUpdate"/>
         <entry filename="/Users/christophershin/eclipse-workspace/GarminSleep/source/CheckBoxView.mc" id="37" lineNum="417" pc="268440155" symbol="onUpdate"/>
-        <entry filename="/Users/christophershin/eclipse-workspace/GarminSleep/source/CheckBoxView.mc" id="37" lineNum="27" pc="268448242" symbol="&lt;init&gt;"/>
-        <entry filename="/Users/christophershin/eclipse-workspace/GarminSleep/source/CheckBoxView.mc" id="37" lineNum="29" pc="268448256" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/christophershin/eclipse-workspace/GarminSleep/source/CheckBoxView.mc" id="37" lineNum="27" pc="268448085" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/christophershin/eclipse-workspace/GarminSleep/source/CheckBoxView.mc" id="37" lineNum="29" pc="268448099" symbol="&lt;init&gt;"/>
         <entry filename="/Users/christophershin/eclipse-workspace/GarminSleep/source/GarminSleepConfigurePlaybackView.mc" id="39" lineNum="5" pc="268440246" symbol="initialize"/>
         <entry filename="/Users/christophershin/eclipse-workspace/GarminSleep/source/GarminSleepConfigurePlaybackView.mc" id="39" lineNum="6" pc="268440250" symbol="initialize"/>
         <entry filename="/Users/christophershin/eclipse-workspace/GarminSleep/source/GarminSleepConfigurePlaybackView.mc" id="40" lineNum="10" pc="268440269" symbol="onLayout"/>
@@ -613,40 +613,33 @@
         <entry filename="Rez" id="127" lineNum="22" pc="268445927" symbol="initialize"/>
         <entry filename="Rez" id="127" lineNum="23" pc="268445931" symbol="initialize"/>
         <entry filename="Rez" id="128" lineNum="26" pc="268445956" symbol="draw"/>
-        <entry filename="Rez" id="128" lineNum="28" pc="268445960" symbol="draw"/>
-        <entry filename="Rez" id="128" lineNum="29" pc="268445996" symbol="draw"/>
-        <entry filename="Rez" id="128" lineNum="30" pc="268446052" symbol="draw"/>
-        <entry filename="Rez" id="128" lineNum="32" pc="268446088" symbol="draw"/>
-        <entry filename="Rez" id="128" lineNum="33" pc="268446124" symbol="draw"/>
-        <entry filename="Rez" id="128" lineNum="35" pc="268446156" symbol="draw"/>
-        <entry filename="Rez" id="128" lineNum="36" pc="268446192" symbol="draw"/>
-        <entry filename="Rez" id="132" lineNum="53" pc="268446225" symbol="ConfigurePlaybackLayout"/>
-        <entry filename="Rez" id="132" lineNum="55" pc="268446237" symbol="ConfigurePlaybackLayout"/>
-        <entry filename="Rez" id="132" lineNum="57" pc="268446250" symbol="ConfigurePlaybackLayout"/>
-        <entry filename="Rez" id="132" lineNum="58" pc="268446405" symbol="ConfigurePlaybackLayout"/>
-        <entry filename="Rez" id="132" lineNum="59" pc="268446517" symbol="ConfigurePlaybackLayout"/>
-        <entry filename="Rez" id="132" lineNum="61" pc="268446554" symbol="ConfigurePlaybackLayout"/>
-        <entry filename="Rez" id="133" lineNum="70" pc="268446582" symbol="ClearLayout"/>
-        <entry filename="Rez" id="133" lineNum="72" pc="268446594" symbol="ClearLayout"/>
-        <entry filename="Rez" id="133" lineNum="73" pc="268446607" symbol="ClearLayout"/>
-        <entry filename="Rez" id="133" lineNum="75" pc="268446620" symbol="ClearLayout"/>
-        <entry filename="Rez" id="133" lineNum="77" pc="268446818" symbol="ClearLayout"/>
-        <entry filename="Rez" id="134" lineNum="86" pc="268446836" symbol="ConfigureSyncLayout"/>
-        <entry filename="Rez" id="134" lineNum="88" pc="268446848" symbol="ConfigureSyncLayout"/>
-        <entry filename="Rez" id="134" lineNum="90" pc="268446861" symbol="ConfigureSyncLayout"/>
-        <entry filename="Rez" id="134" lineNum="91" pc="268447016" symbol="ConfigureSyncLayout"/>
-        <entry filename="Rez" id="134" lineNum="92" pc="268447128" symbol="ConfigureSyncLayout"/>
-        <entry filename="Rez" id="134" lineNum="94" pc="268447165" symbol="ConfigureSyncLayout"/>
-        <entry filename="Rez" id="135" lineNum="103" pc="268447193" symbol="ButtonLayout"/>
-        <entry filename="Rez" id="135" lineNum="105" pc="268447205" symbol="ButtonLayout"/>
-        <entry filename="Rez" id="135" lineNum="107" pc="268447218" symbol="ButtonLayout"/>
-        <entry filename="Rez" id="135" lineNum="108" pc="268447582" symbol="ButtonLayout"/>
-        <entry filename="Rez" id="135" lineNum="110" pc="268447946" symbol="ButtonLayout"/>
-        <entry filename="Rez" id="136" lineNum="119" pc="268447974" symbol="PhoneLayout"/>
-        <entry filename="Rez" id="136" lineNum="121" pc="268447986" symbol="PhoneLayout"/>
-        <entry filename="Rez" id="136" lineNum="122" pc="268447999" symbol="PhoneLayout"/>
-        <entry filename="Rez" id="136" lineNum="124" pc="268448012" symbol="PhoneLayout"/>
-        <entry filename="Rez" id="136" lineNum="126" pc="268448210" symbol="PhoneLayout"/>
+        <entry filename="Rez" id="128" lineNum="27" pc="268445960" symbol="draw"/>
+        <entry filename="Rez" id="128" lineNum="28" pc="268445996" symbol="draw"/>
+        <entry filename="Rez" id="128" lineNum="29" pc="268446028" symbol="draw"/>
+        <entry filename="Rez" id="128" lineNum="31" pc="268446064" symbol="draw"/>
+        <entry filename="Rez" id="128" lineNum="32" pc="268446100" symbol="draw"/>
+        <entry filename="Rez" id="128" lineNum="34" pc="268446132" symbol="draw"/>
+        <entry filename="Rez" id="128" lineNum="35" pc="268446168" symbol="draw"/>
+        <entry filename="Rez" id="132" lineNum="52" pc="268446201" symbol="ConfigurePlaybackLayout"/>
+        <entry filename="Rez" id="132" lineNum="54" pc="268446213" symbol="ConfigurePlaybackLayout"/>
+        <entry filename="Rez" id="132" lineNum="55" pc="268446365" symbol="ConfigurePlaybackLayout"/>
+        <entry filename="Rez" id="132" lineNum="56" pc="268446477" symbol="ConfigurePlaybackLayout"/>
+        <entry filename="Rez" id="132" lineNum="58" pc="268446517" symbol="ConfigurePlaybackLayout"/>
+        <entry filename="Rez" id="133" lineNum="67" pc="268446545" symbol="ClearLayout"/>
+        <entry filename="Rez" id="133" lineNum="69" pc="268446557" symbol="ClearLayout"/>
+        <entry filename="Rez" id="133" lineNum="71" pc="268446743" symbol="ClearLayout"/>
+        <entry filename="Rez" id="134" lineNum="80" pc="268446761" symbol="ConfigureSyncLayout"/>
+        <entry filename="Rez" id="134" lineNum="82" pc="268446773" symbol="ConfigureSyncLayout"/>
+        <entry filename="Rez" id="134" lineNum="83" pc="268446925" symbol="ConfigureSyncLayout"/>
+        <entry filename="Rez" id="134" lineNum="84" pc="268447037" symbol="ConfigureSyncLayout"/>
+        <entry filename="Rez" id="134" lineNum="86" pc="268447077" symbol="ConfigureSyncLayout"/>
+        <entry filename="Rez" id="135" lineNum="95" pc="268447105" symbol="ButtonLayout"/>
+        <entry filename="Rez" id="135" lineNum="97" pc="268447117" symbol="ButtonLayout"/>
+        <entry filename="Rez" id="135" lineNum="98" pc="268447472" symbol="ButtonLayout"/>
+        <entry filename="Rez" id="135" lineNum="100" pc="268447827" symbol="ButtonLayout"/>
+        <entry filename="Rez" id="136" lineNum="109" pc="268447855" symbol="PhoneLayout"/>
+        <entry filename="Rez" id="136" lineNum="111" pc="268447867" symbol="PhoneLayout"/>
+        <entry filename="Rez" id="136" lineNum="113" pc="268448053" symbol="PhoneLayout"/>
     </pcToLineNum>
     <symbolTable>
         <entry id="8388639" module="true" symbol="Graphics"/>
@@ -964,27 +957,20 @@
         <entry arg="true" endPc="268445635" name="dc" stackId="1" startPc="268445570"/>
         <entry arg="true" endPc="268445703" name="dc" stackId="1" startPc="268445635"/>
         <entry endPc="268445890" name="profile" stackId="1" startPc="268445745"/>
-        <entry arg="true" endPc="268446225" name="dc" stackId="1" startPc="268445956"/>
-        <entry endPc="268446581" name="rez_cmp_local_var_dc_getWidth" stackId="2" startPc="268446237"/>
-        <entry endPc="268446581" name="rez_cmp_local_text_1239281476" stackId="3" startPc="268446237"/>
-        <entry endPc="268446581" name="rez_cmp_local_bitmap_id_monkey" stackId="4" startPc="268446237"/>
-        <entry arg="true" endPc="268446582" name="dc" stackId="1" startPc="268446225"/>
-        <entry endPc="268446835" name="rez_cmp_local_var_dc_getWidth" stackId="3" startPc="268446594"/>
-        <entry endPc="268446835" name="rez_cmp_local_var_dc_getHeight" stackId="2" startPc="268446594"/>
-        <entry endPc="268446835" name="rez_cmp_local_textarea_BlockOfText" stackId="4" startPc="268446594"/>
-        <entry arg="true" endPc="268446836" name="dc" stackId="1" startPc="268446582"/>
-        <entry endPc="268447192" name="rez_cmp_local_text_1220978584" stackId="3" startPc="268446848"/>
-        <entry endPc="268447192" name="rez_cmp_local_var_dc_getWidth" stackId="2" startPc="268446848"/>
-        <entry endPc="268447192" name="rez_cmp_local_bitmap_id_monkey" stackId="4" startPc="268446848"/>
-        <entry arg="true" endPc="268447193" name="dc" stackId="1" startPc="268446836"/>
-        <entry endPc="268447973" name="rez_cmp_local_custom_selectable_54614872020185494311" stackId="4" startPc="268447205"/>
-        <entry endPc="268447973" name="rez_cmp_local_var_dc_getHeight" stackId="2" startPc="268447205"/>
-        <entry endPc="268447973" name="rez_cmp_local_custom_selectable_70731441882075103717" stackId="3" startPc="268447205"/>
-        <entry arg="true" endPc="268447974" name="dc" stackId="1" startPc="268447193"/>
-        <entry endPc="268448227" name="rez_cmp_local_var_dc_getWidth" stackId="3" startPc="268447986"/>
-        <entry endPc="268448227" name="rez_cmp_local_var_dc_getHeight" stackId="2" startPc="268447986"/>
-        <entry endPc="268448227" name="rez_cmp_local_textarea_BlockOfText" stackId="4" startPc="268447986"/>
-        <entry arg="true" endPc="268448228" name="dc" stackId="1" startPc="268447974"/>
+        <entry arg="true" endPc="268446201" name="dc" stackId="1" startPc="268445956"/>
+        <entry endPc="268446544" name="rez_cmp_local_text_5342848462" stackId="2" startPc="268446213"/>
+        <entry endPc="268446544" name="rez_cmp_local_bitmap_id_monkey" stackId="3" startPc="268446213"/>
+        <entry arg="true" endPc="268446545" name="dc" stackId="1" startPc="268446201"/>
+        <entry endPc="268446760" name="rez_cmp_local_textarea_BlockOfText" stackId="2" startPc="268446557"/>
+        <entry arg="true" endPc="268446761" name="dc" stackId="1" startPc="268446545"/>
+        <entry endPc="268447104" name="rez_cmp_local_text_8719609486" stackId="2" startPc="268446773"/>
+        <entry endPc="268447104" name="rez_cmp_local_bitmap_id_monkey" stackId="3" startPc="268446773"/>
+        <entry arg="true" endPc="268447105" name="dc" stackId="1" startPc="268446761"/>
+        <entry endPc="268447854" name="rez_cmp_local_custom_selectable_15320271019885791282" stackId="2" startPc="268447117"/>
+        <entry endPc="268447854" name="rez_cmp_local_custom_selectable_62828424617796989911" stackId="3" startPc="268447117"/>
+        <entry arg="true" endPc="268447855" name="dc" stackId="1" startPc="268447105"/>
+        <entry endPc="268448070" name="rez_cmp_local_textarea_BlockOfText" stackId="2" startPc="268447867"/>
+        <entry arg="true" endPc="268448071" name="dc" stackId="1" startPc="268447855"/>
     </localVars>
     <annotations/>
     <dataEntryOffsetMappings>
