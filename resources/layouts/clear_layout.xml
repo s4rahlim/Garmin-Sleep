@@ -1,0 +1,12 @@
+<layout id="ClearLayout">
+	
+<text-area id="BlockOfText" text="Clear" x="30%" y="20%" width="50%" height="80%">
+		<fonts>
+		<font>Graphics.FONT_SMALL</font>
+		</fonts>
+		<param name="background">Graphics.COLOR_BLACK</param>
+		<param name="color">Graphics.COLOR_WHITE</param>
+</text-area>
+
+	
+</layout>
