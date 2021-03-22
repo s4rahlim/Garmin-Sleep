@@ -187,10 +187,7 @@ class CheckBoxList {
 //            initX = spacing - offset - BORDER_PAD;
 //            initY = 40;//(dc.getHeight() / 2) - (dims[1] / 2);
             initX = 0;
-//            dc.getWidth() / 2 - offset;
-//            initY = (dc.getHeight() / 2) - (dims[1] / 2);
 			initY = 0;
-//			dc.getHeight() / 6 - offset;
         }
 
         // Create the first check-box
@@ -222,9 +219,7 @@ class CheckBoxList {
             :width=>260,
             :height=>100
             };
-        // Create the second check-box
-//        options.put(slideSymbol, 160);
-//        3 * dc.getHeight()/4
+
         list[1] = new Checkbox(optionsRed);
     }
 

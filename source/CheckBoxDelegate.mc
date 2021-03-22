@@ -130,7 +130,8 @@ class CheckBoxDelegate extends WatchUi.BehaviorDelegate {
         } else if (swipe == SWIPE_LEFT) {
         	System.println("CheckBoxDelegate::onSwipe - SWIPE_LEFT");
             setActionString("SWIPE_LEFT");
-           	var sensView = new SensorView();
+           	var sensView = new WatchFaceView();
+//           	SensorView();
 	    	var sensDelegate = new ButtonDelegate();
 	    	WatchUi.pushView(sensView, sensDelegate, SLIDE_IMMEDIATE);
 	    	System.println("CheckBoxDelegate::onSwipe - SWIPE_RIGHT");
