@@ -283,7 +283,7 @@ class CheckBoxView extends WatchUi.View {
         string_HR = "---bpm";
         string_ACCEL = "x: y: z:";
         string_MOVING = "Not Moving";
-        string_ACTIVE_MIN = "Uninit";
+        string_ACTIVE_MIN = "s_s";
         string_ACTIVE_SEC = "Uninit";
         
     	System.println("CheckBoxView::initialize");
@@ -353,21 +353,7 @@ class CheckBoxView extends WatchUi.View {
         } else {
         	string_ACTIVE_SEC = "m_s";
         }
-        if(count1%5 == 0) {
-        	var activitycounter = 0;
-        	for(var i=0; i<5; i++) {
-        		System.println("secondarr::" + secondarr[i]);
-        		if(secondarr[i]) {
-        			activitycounter++;
-        		}
-        	}
-        	var wasactive = false;
-        	if(activitycounter > 2) {
-        		wasactive = true;
-        	}
-        	System.println("second::" + wasactive);
-        	minutearr[count1/5] = wasactive;
-        }
+        
         if(count1==60) {
         	var minuteactivitycounter = 0;
         	for(var i=0; i<12; i++) {
@@ -383,6 +369,22 @@ class CheckBoxView extends WatchUi.View {
         	}
         	count1=0;
         	System.println("minute::" + wasactiveminute);
+        }
+        
+        if(count1%5 == 0) {
+        	var activitycounter = 0;
+        	for(var i=0; i<5; i++) {
+        		System.println("secondarr::" + secondarr[i]);
+        		if(secondarr[i]) {
+        			activitycounter++;
+        		}
+        	}
+        	var wasactive = false;
+        	if(activitycounter > 2) {
+        		wasactive = true;
+        	}
+        	System.println("second::" + wasactive);
+        	minutearr[count1/5] = wasactive;
         }
 
         WatchUi.requestUpdate();
