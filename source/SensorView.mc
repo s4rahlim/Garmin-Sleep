@@ -65,9 +65,10 @@ class SensorView extends WatchUi.View
         	var xAccel = accel[0];
         	var yAccel = accel[1];
         	var zAccel = accel[2];
-        	var mag = Math.sqrt(xAccel*xAccel + yAccel*yAccel + (zAccel+980)*(zAccel+980));
+
+        	var mag = xAccel*xAccel + yAccel*yAccel + zAccel*zAccel;
         	string_ACCEL = mag;
-        	if(mag >= 400) {
+        	if(mag >= 1100000 || mag <= 900000) {
         		string_MOVING = "Moving";
         	} else {
         		string_MOVING = "Not Moving Anymore";

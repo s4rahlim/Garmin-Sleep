@@ -8,13 +8,28 @@ using Toybox.WatchUi;
 using Toybox.Graphics;
 
 // Store reference to View in which the list lives
-var currentView = null;
-
-var action_string;
-var status_string;
-var behavior_string;
-var action_hits;
-var behavior_hits;
+	var currentView = null;
+	
+	var action_string;
+	var status_string;
+	var behavior_string;
+	var action_hits;
+	var behavior_hits;
+	
+	//from sensorview
+    var string_HR;
+    var string_ACCEL;
+    var string_MOVING;
+    var HR_graph;
+    var timer1;
+    var count1 = 0;
+    //12 intervals of 5 seconds
+    var minutearr = new [12];
+    //5 intervals of 1 second
+    var secondarr = new [5];
+    var active;
+    var string_ACTIVE_MIN;
+    var string_ACTIVE_SEC;
 
 //image stuff 
 var phone_icon;
@@ -264,6 +279,18 @@ class CheckBoxView extends WatchUi.View {
 
     //! Constructor
     function initialize() {
+
+    	//from sensor view
+        Sensor.setEnabledSensors( [Sensor.SENSOR_HEARTRATE] );
+        Sensor.enableSensorEvents( method(:onSnsr) );
+        HR_graph = new LineGraph( 20, 10, Graphics.COLOR_RED );
+
+        string_HR = "---bpm";
+        string_ACCEL = "x: y: z:";
+        string_MOVING = "Not Moving";
+        string_ACTIVE_MIN = "Uninit";
+        string_ACTIVE_SEC = "Uninit";
+        
     	System.println("CheckBoxView::initialize");
         View.initialize();
 
@@ -275,14 +302,97 @@ class CheckBoxView extends WatchUi.View {
         // Initialize global reference
         currentView = self;
     }
-
+	
     //! Load your resources here
     function onLayout(dc) {
     	System.println("CheckBoxView::onLayout");
+    	timer1 = new Timer.Timer();
+    	timer1.start(method(:callback1), 1000, true);
         checkBoxes = new CheckBoxList(dc);
         setLayout(checkBoxes.getList());
     }
+    
+    //from timer
+    function callback1() {
+        count1 += 1;
+    }
+    
+    //from sensorview
+    function onSnsr(sensor_info)
+    {
+        var HR = sensor_info.heartRate;
+        var bucket;
+        var moved;
+//        if( sensor_info.heartRate != null )
+//        {
+//            string_HR = HR.toString() + "bpm";
+//
+//            //Add value to graph
+//            HR_graph.addItem(HR);
+//        }
+        if(sensor_info has :accel && sensor_info.accel != null)
+        {
+        	var accel = sensor_info.accel;
+        	var xAccel = accel[0];
+        	var yAccel = accel[1];
+        	var zAccel = accel[2];
+        	var mag = xAccel*xAccel + yAccel*yAccel + zAccel*zAccel;
+        	string_ACCEL = mag;
+        	if(mag >= 1100000 || mag <= 900000) {
+        		moved = true;
+        		string_MOVING = "Moving";
+        	} else {
+        		moved = false;
+        		string_MOVING = "Not Moving Anymore";
+        	}
+        	//string_ACCEL = "x: " + xAccel + ", y: " + yAccel + ", z: " + zAccel;
+        } else {
+        	string_HR = "---bpm";
+        	string_ACCEL = "x: y: z:";
+        	string_MOVING = "Not Moving Yet";
+        	moved = false;
+        }
+        secondarr[count1%5] = moved;
+        if(!moved) {
+        	string_ACTIVE_SEC = "s_s";
+        } else {
+        	string_ACTIVE_SEC = "m_s";
+        }
+        if(count1%5 == 0) {
+        	var activitycounter = 0;
+        	for(var i=0; i<5; i++) {
+        		System.println("secondarr::" + secondarr[i]);
+        		if(secondarr[i]) {
+        			activitycounter++;
+        		}
+        	}
+        	var wasactive = false;
+        	if(activitycounter > 2) {
+        		wasactive = true;
+        	}
+        	System.println("second::" + wasactive);
+        	minutearr[count1/5] = wasactive;
+        }
+        if(count1==60) {
+        	var minuteactivitycounter = 0;
+        	for(var i=0; i<12; i++) {
+        		if(minutearr[i]) {
+        			minuteactivitycounter++;
+        		}
+        	}
+        	var wasactiveminute = false;
+        	string_ACTIVE_MIN = "s_min";
+        	if(minuteactivitycounter >= 6) {
+        		wasactiveminute = true;
+        		string_ACTIVE_MIN = "m_min";
+        	}
+        	count1=0;
+        	System.println("minute::" + wasactiveminute);
+        }
 
+        WatchUi.requestUpdate();
+    }
+    
     //! Update the view
     function onUpdate(dc) {
     	System.println("CheckBoxView::onUpdate");
@@ -298,7 +408,10 @@ class CheckBoxView extends WatchUi.View {
 //        dc.drawText(x, y + 2 * dc.getFontHeight(Graphics.FONT_SMALL), Graphics.FONT_SMALL, status_string, Graphics.TEXT_JUSTIFY_CENTER);
         
         dc.setColor(Graphics.COLOR_RED, Graphics.COLOR_BLACK);
-        dc.drawText(x, dc.getHeight()/2 - 20, Graphics.FONT_MEDIUM, "Respond to Survey", Graphics.TEXT_JUSTIFY_CENTER);
+        //from sensorview
+        dc.drawText(x, dc.getHeight()/2 - 20, Graphics.FONT_MEDIUM, string_ACTIVE_SEC + ", " + string_ACTIVE_MIN + ", " + count1, Graphics.TEXT_JUSTIFY_CENTER);
+        //dc.drawText(x, dc.getHeight()/2 - 20, Graphics.FONT_MEDIUM, "Respond to Survey", Graphics.TEXT_JUSTIFY_CENTER);
+
         dc.drawText(x, dc.getHeight()/2 - dc.getFontHeight(Graphics.FONT_SMALL) -25, Graphics.FONT_SMALL, "YES", Graphics.TEXT_JUSTIFY_CENTER);
         dc.drawText(x, dc.getHeight()/2 + dc.getFontHeight(Graphics.FONT_SMALL) -5, Graphics.FONT_SMALL, "NO", Graphics.TEXT_JUSTIFY_CENTER);
     }
