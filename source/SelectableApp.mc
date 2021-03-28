@@ -6,11 +6,14 @@
 
 using Toybox.Application;
 
+(:background)
 class SelectableApp extends Application.AppBase {
 
     function initialize() {
     	System.println("SelectableApp::initialize");
         AppBase.initialize();
+        
+
     }
 
     // onStart() is called on application start up
