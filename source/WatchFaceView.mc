@@ -2,8 +2,11 @@ using Toybox.WatchUi;
 using Toybox.Graphics;
 using Toybox.System;
 using Toybox.Lang;
+using Toybox.Time;
+
 
 class WatchFaceView extends WatchUi.View {
+	var five = new Time.Duration(300);
 
     function initialize() {
         View.initialize();
@@ -32,6 +35,13 @@ class WatchFaceView extends WatchUi.View {
         View.onUpdate(dc);
     }
 
+	function setBackgroundEvent() {
+		try {
+            Background.registerForTemporalEvent(five);
+        } catch (e instanceof Background.InvalidBackgroundTimeException) {
+            //this might happen if this gets called 
+        }
+	}
     // Called when this View is removed from the screen. Save the
     // state of this View here. This includes freeing resources from
     // memory.

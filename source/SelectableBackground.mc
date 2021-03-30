@@ -44,35 +44,35 @@ class SelectableServiceDelegate extends System.ServiceDelegate {
         string_ACTIVE_MIN = "s_s";
         string_ACTIVE_SEC = "Uninit";
         
+        timer1 = new Timer.Timer();
+    	timer1.start(method(:callback1), 1000, true);
+        
     }
 
     // If our timer expires, it means the application timer ran out,
     // and the main application is not open. Prompt the user to let them
     // know the timer expired.
     function onTemporalEvent() {
-
+		System.println("Temporal Event - background");
+		Background.requestApplicationWake("Your timer has expired!");
         // Use background resources if they are available
-        if (Application has :loadResource) {
-            Background.requestApplicationWake(Application.loadResource(Rez.Strings.TimerExpired));
-        } else {
-            Background.requestApplicationWake("Your timer has expired!");
-        }
+//        if (Application has :loadResource) {
+//            Background.requestApplicationWake(Application.loadResource(Rez.Strings.TimerExpired));
+//        } else {
+//            Background.requestApplicationWake("Your timer has expired!");
+//        }
 
         // Write to Storage, this will trigger onStorageChanged() method in foreground app
         Storage.setValue("1", 1);
-
         Background.exit(true);
     }
-    
-    function onLayout(dc) {
-        timer1 = new Timer.Timer();
-    	timer1.start(method(:callback1), 1000, true);
-    }
+
     
     function callback1() {
         count1 += 1;
     }
-        //from sensorview
+    
+    //from sensorview
     function onSnsr(sensor_info) {
     
         var HR = sensor_info.heartRate;
