@@ -238,7 +238,11 @@ class CheckBoxList {
         	}
         }
         else if(instance.identifier == 1){
-        	
+	        if(instance.getState() == :stateSelected){
+		        var view = new WatchFaceView();
+	    		var delegate = new ButtonDelegate();
+	    		WatchUi.pushView(view, delegate, WatchUi.SLIDE_IMMEDIATE); 
+	        }
         }
 
 //        if(instance.getState() == :stateHighlighted) {
@@ -283,6 +287,7 @@ class CheckBoxView extends WatchUi.View {
 //        string_MOVING = "Not Moving";
 //        string_ACTIVE_MIN = "s_s";
 //        string_ACTIVE_SEC = "Uninit";
+
         
     	System.println("CheckBoxView::initialize");
         View.initialize();
@@ -305,89 +310,6 @@ class CheckBoxView extends WatchUi.View {
         setLayout(checkBoxes.getList());
     }
     
-    //from timer
-//    function callback1() {
-//        count1 += 1;
-//    }
-    
-//    //from sensorview
-//    function onSnsr(sensor_info)
-//    {
-//        var HR = sensor_info.heartRate;
-//        var bucket;
-//        var moved;
-////        if( sensor_info.heartRate != null )
-////        {
-////            string_HR = HR.toString() + "bpm";
-////
-////            //Add value to graph
-////            HR_graph.addItem(HR);
-////        }
-//        if(sensor_info has :accel && sensor_info.accel != null)
-//        {
-//        	var accel = sensor_info.accel;
-//        	var xAccel = accel[0];
-//        	var yAccel = accel[1];
-//        	var zAccel = accel[2];
-//        	var mag = xAccel*xAccel + yAccel*yAccel + zAccel*zAccel;
-//        	string_ACCEL = mag;
-//        	if(mag >= 1100000 || mag <= 900000) {
-//        		moved = true;
-//        		string_MOVING = "Moving";
-//        	} else {
-//        		moved = false;
-//        		string_MOVING = "Not Moving Anymore";
-//        	}
-//        	//string_ACCEL = "x: " + xAccel + ", y: " + yAccel + ", z: " + zAccel;
-//        } else {
-//        	string_HR = "---bpm";
-//        	string_ACCEL = "x: y: z:";
-//        	string_MOVING = "Not Moving Yet";
-//        	moved = false;
-//        }
-//        secondarr[count1%5] = moved;
-//        if(!moved) {
-//        	string_ACTIVE_SEC = "s_s";
-//        } else {
-//        	string_ACTIVE_SEC = "m_s";
-//        }
-//        
-//        if(count1==60) {
-//        	var minuteactivitycounter = 0;
-//        	for(var i=0; i<12; i++) {
-//        		if(minutearr[i]) {
-//        			minuteactivitycounter++;
-//        		}
-//        	}
-//        	var wasactiveminute = false;
-//        	string_ACTIVE_MIN = "s_min";
-//        	if(minuteactivitycounter >= 6) {
-//        		wasactiveminute = true;
-//        		string_ACTIVE_MIN = "m_min";
-//        	}
-//        	count1=0;
-//        	System.println("minute::" + wasactiveminute);
-//        }
-//        
-//        if(count1%5 == 0) {
-//        	var activitycounter = 0;
-//        	for(var i=0; i<5; i++) {
-//        		System.println("secondarr::" + secondarr[i]);
-//        		if(secondarr[i]) {
-//        			activitycounter++;
-//        		}
-//        	}
-//        	var wasactive = false;
-//        	if(activitycounter > 2) {
-//        		wasactive = true;
-//        	}
-//        	System.println("second::" + wasactive);
-//        	minutearr[count1/5] = wasactive;
-//        }
-//
-//        WatchUi.requestUpdate();
-//    }
-    
     //! Update the view
     function onUpdate(dc) {
     	System.println("CheckBoxView::onUpdate");
@@ -404,8 +326,8 @@ class CheckBoxView extends WatchUi.View {
         
         dc.setColor(Graphics.COLOR_RED, Graphics.COLOR_BLACK);
         //from sensorview
-        dc.drawText(x, dc.getHeight()/2 - 20, Graphics.FONT_MEDIUM, string_ACTIVE_SEC + ", " + string_ACTIVE_MIN + ", " + count1, Graphics.TEXT_JUSTIFY_CENTER);
-        //dc.drawText(x, dc.getHeight()/2 - 20, Graphics.FONT_MEDIUM, "Respond to Survey", Graphics.TEXT_JUSTIFY_CENTER);
+        //dc.drawText(x, dc.getHeight()/2 - 20, Graphics.FONT_MEDIUM, "x: " + xAvg + ", y: " + yAvg + ", z: " + zAvg, Graphics.TEXT_JUSTIFY_CENTER);
+        dc.drawText(x, dc.getHeight()/2 - 20, Graphics.FONT_MEDIUM, "Respond to Survey", Graphics.TEXT_JUSTIFY_CENTER);
 
         dc.drawText(x, dc.getHeight()/2 - dc.getFontHeight(Graphics.FONT_SMALL) -25, Graphics.FONT_SMALL, "YES", Graphics.TEXT_JUSTIFY_CENTER);
         dc.drawText(x, dc.getHeight()/2 + dc.getFontHeight(Graphics.FONT_SMALL) -5, Graphics.FONT_SMALL, "NO", Graphics.TEXT_JUSTIFY_CENTER);

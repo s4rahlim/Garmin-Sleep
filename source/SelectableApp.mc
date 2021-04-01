@@ -24,7 +24,6 @@ class SelectableApp extends Application.AppBase {
     // onStart() is called on application start up
     function onStart(state) {
     	System.println("SelectableApp::onStart");
-    	
     }
 
     // onStop() is called when your application is exiting
@@ -40,6 +39,7 @@ class SelectableApp extends Application.AppBase {
     	System.println("SelectableApp::getInitialView");
     	watchView = new WatchFaceView();
         return [ watchView, new ButtonDelegate() ];
+//		return [new CheckBoxView(), new CheckBoxDelegate()];
     }
 
 }
