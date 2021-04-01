@@ -244,29 +244,7 @@ class CheckBoxList {
 	    		WatchUi.pushView(view, delegate, WatchUi.SLIDE_IMMEDIATE); 
 	        }
         }
-
-//        if(instance.getState() == :stateHighlighted) {
-//        	System.println("CheckBoxList::handleEvent - stateHighlighted");
-//            // Only one CheckBox may be highlighted
-//            if((null != currentHighlight) && !currentHighlight.equals(instance)) {
-//                currentHighlight.unHighlight();
-//            }
-//
-//            // Note which checkbox was highlighted
-//            currentHighlight = instance;
-//            instance.highlight(previousState);
-//        }
-//        else if(instance.getState() == :stateSelected) {
-//        	System.println("CheckBoxList::handleEvent - stateSelected");
-//            instance.select(previousState);
-//        }
-//        else if(instance.getState() == :stateDefault) {
-//        	System.println("CheckBoxList::handleEvent - stateDefault");
-//            instance.reset(previousState);
-//        }
-//        else {
-//        	System.println("CheckBoxList::handleEvent - else");
-//        }
+     
     }
 }
 

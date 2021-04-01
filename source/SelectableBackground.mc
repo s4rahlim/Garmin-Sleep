@@ -36,7 +36,7 @@ class SelectableServiceDelegate extends System.ServiceDelegate {
         ServiceDelegate.initialize();
         Sensor.setEnabledSensors( [Sensor.SENSOR_HEARTRATE] );
         Sensor.enableSensorEvents( method(:onSnsr) );
-        HR_graph = new LineGraph( 20, 10, Graphics.COLOR_RED );
+//        HR_graph = new LineGraph( 20, 10, Graphics.COLOR_RED );
 
         string_HR = "---bpm";
         string_ACCEL = "x: y: z:";
