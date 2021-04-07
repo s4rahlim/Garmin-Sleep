@@ -5,8 +5,8 @@ using Toybox.Lang;
 using Toybox.Time;
 using Toybox.Application.Storage;
 
-const MINUTE = 60;
-const MOVEMENT_THRESHOLD = 1100000;
+const INTERVAL = 15;
+const MOVEMENT_THRESHOLD = 110000;
 
 class WatchFaceView extends WatchUi.View {
 	var five = new Time.Duration(300);
@@ -81,7 +81,6 @@ class WatchFaceView extends WatchUi.View {
 	    mX = sensorData.accelerometerData.x;
 	    mY = sensorData.accelerometerData.y;
 	    mZ = sensorData.accelerometerData.z;
-	    System.println("yoooo");
 	    onAccelData();
 	}
     
@@ -96,7 +95,7 @@ class WatchFaceView extends WatchUi.View {
 	    	yAvg/=mY.size();
 	    	zAvg/=mZ.size();
     	}
-    	System.println("x: " + mX + ", y: " + mY + ", z: " + mZ);
+//    	System.println("x: " + mX + ", y: " + mY + ", z: " + mZ);
     	System.println("xAvg: " + xAvg + ", yAvg: " + yAvg + ", zAvg: " + zAvg);
     	var averageArray = Storage.getValue("avgarray");
     	averageArray.add(xAvg*xAvg + yAvg*yAvg + zAvg*zAvg);
@@ -105,13 +104,12 @@ class WatchFaceView extends WatchUi.View {
     	}
     	
     	
-    	if(averageArray.size() == MINUTE) {
-    		System.println("MINUTE, CHECKING ACTIVITY");
+    	if(averageArray.size() == INTERVAL) {
+    		System.println("INTERVAL, CHECKING ACTIVITY");
     		Storage.deleteValue("avgarray");
     		Storage.setValue("avgarray", []);
     		System.println("FULL ARRAY: " + averageArray); 
-    		System.println("STORED ARRAY: " + Storage.getValue("avgarray")); 
-    		Sensor.unregisterSensorDataListener();
+    		System.println("STORED ARRAY: " + Storage.getValue("avgarray"));
     		processData(averageArray);
     	} else {
 	    	Storage.setValue("avgarray", averageArray);
@@ -133,7 +131,8 @@ class WatchFaceView extends WatchUi.View {
 	    		System.println("WAS MOVING, PUSHING NOTIFICATION");
 	    		var view = new CheckBoxView();
 	    		var delegate = new CheckBoxDelegate();
-	    		WatchUi.pushView(view, delegate, WatchUi.SLIDE_IMMEDIATE); 
+	    		WatchUi.pushView(view, delegate, WatchUi.SLIDE_IMMEDIATE);
+	    		System.println("BACK FROM CHECKBOXVIEW");
 	    	}
     	}
     }

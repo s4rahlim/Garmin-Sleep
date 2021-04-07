@@ -5,6 +5,7 @@
 //!
 
 using Toybox.Application;
+using Toybox.Communications;
 
 (:background)
 
@@ -13,12 +14,19 @@ using Toybox.Application;
 class SelectableApp extends Application.AppBase {
 	
 	var watchView;
+	var phoneMethod;
+	var strings = ["","","","",""];
+	var stringsSize = 5;
+	var crashOnMessage = false;
 
     function initialize() {
     	System.println("SelectableApp::initialize");
         AppBase.initialize();
     	
-
+    	phoneMethod = method(:onPhone);
+    	if(Communications has :registerForPhoneAppMessages) {
+            Communications.registerForPhoneAppMessages(phoneMethod);
+        }
     }
 
     // onStart() is called on application start up
@@ -41,5 +49,21 @@ class SelectableApp extends Application.AppBase {
         return [ watchView, new ButtonDelegate() ];
 //		return [new CheckBoxView(), new CheckBoxDelegate()];
     }
+    
+    function onPhone(msg) {
+        var i;
+
+        if((crashOnMessage == true) && msg.data.equals("Hi")) {
+            msg.length(); // Generates a symbol not found error in the VM
+        }
+
+        for(i = (stringsSize - 1); i > 0; i -= 1) {
+            strings[i] = strings[i-1];
+        }
+        strings[0] = msg.data.toString();
+
+        WatchUi.requestUpdate();
+    }
+    
 
 }

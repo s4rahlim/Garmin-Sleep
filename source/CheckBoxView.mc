@@ -6,6 +6,7 @@
 
 using Toybox.WatchUi;
 using Toybox.Graphics;
+using Toybox.Communications;
 
 //need 
 // Store reference to View in which the list lives
@@ -230,21 +231,35 @@ class CheckBoxList {
     //! General handler for onSelectable() events
     function handleEvent(instance, previousState) {
         // Handle all cases except disabled (handled implicitly)
+        System.println("TRYING COMM");
+        var listener = new CommListener();
+        System.println("COMM WORKED");
+        System.println("instance.identifier::" + instance.identifier);
         if(instance.identifier == 0){
-        	if(instance.getState() == :stateSelected){
-        		var view = new PhoneView();
-        		var delegate = new ButtonDelegate();
-        		WatchUi.pushView(view, delegate, WatchUi.SLIDE_IMMEDIATE); 
-        	}
+    		System.println("Yes Survey");
+    	 	Communications.transmit("Yes Survey", null, listener);
+    	 	System.println("Sent Survey");
+        } else {
+    		System.println("No Survey");
+    		Communications.transmit("No Survey", null, listener);
         }
-        else if(instance.identifier == 1){
-	        if(instance.getState() == :stateSelected){
-		        var view = new WatchFaceView();
-	    		var delegate = new ButtonDelegate();
-	    		WatchUi.pushView(view, delegate, WatchUi.SLIDE_IMMEDIATE); 
-	        }
-        }
-     
+		WatchUi.popView(WatchUi.SLIDE_IMMEDIATE); 
+    }
+}
+
+class CommListener extends Communications.ConnectionListener {
+    function initialize() {
+        Communications.ConnectionListener.initialize();
+    }
+
+    function onComplete() {
+        System.println("Transmit Complete");
+        Storage.setValue("transmit", 1);
+    }
+
+    function onError() {
+        System.println("Transmit Failed");
+        Storage.setValue("transmit", 0);
     }
 }
 
