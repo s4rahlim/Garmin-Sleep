@@ -16,6 +16,9 @@ class WatchFaceView extends WatchUi.View {
 	var xAvg=0;
 	var yAvg=0;
 	var zAvg=0;
+    var startTime = null;
+    var endTime = null;
+    var notMoving = false; 
     
   	// initialize accelerometer
 	var options = {
@@ -98,7 +101,20 @@ class WatchFaceView extends WatchUi.View {
 //    	System.println("x: " + mX + ", y: " + mY + ", z: " + mZ);
     	System.println("xAvg: " + xAvg + ", yAvg: " + yAvg + ", zAvg: " + zAvg);
     	var averageArray = Storage.getValue("avgarray");
-    	averageArray.add(xAvg*xAvg + yAvg*yAvg + zAvg*zAvg);
+    	var sum = xAvg*xAvg + yAvg*yAvg + zAvg*zAvg; 
+    	averageArray.add(sum);
+    	if (sum < 900000){
+    		notMoving = true;
+    		if (startTime == null){
+    			startTime = System.getClockTime();
+    		}
+    	} else{
+    		notMoving = false;
+    		if (startTime != null){
+    			endTime = System.getClockTime();
+    		}
+    	}
+    	
     	if(averageArray.size() > 0) {
     		System.println("Array: " + averageArray);
     	}
