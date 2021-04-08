@@ -19,6 +19,12 @@ class WatchFaceView extends WatchUi.View {
     var startTime = null;
     var endTime = null;
     var notMoving = false; 
+    var notMovingCtr = 0; 
+    var secondCtr = 0;
+    var minuteCtr = 0;
+    var NOT_MOVED_BOOL = false;
+    var MOVED_CTR = 0;
+    var NOT_MOVED_CTR = 0;
     
   	// initialize accelerometer
 	var options = {
@@ -88,6 +94,7 @@ class WatchFaceView extends WatchUi.View {
 	}
     
     function onAccelData() {
+    	secondCtr = secondCtr + 1;
     	if(mX.size() !=0) {
 	    	for(var i=0; i<mX.size(); i++) {
 	    		xAvg+=mX[i];
@@ -103,53 +110,70 @@ class WatchFaceView extends WatchUi.View {
     	var averageArray = Storage.getValue("avgarray");
     	var sum = xAvg*xAvg + yAvg*yAvg + zAvg*zAvg; 
     	averageArray.add(sum);
-    	if (sum < 900000){
-    		notMoving = true;
-    		if (startTime == null){
-    			startTime = System.getClockTime();
+    	if (sum < MOVEMENT_THRESHOLD){
+    		notMovingCtr = notMovingCtr + 1;
+    	} 
+    	
+    	if (secondCtr == 60){
+    		minuteCtr++;
+    		NOT_MOVED_BOOL = (notMovingCtr > 30);
+    		if (NOT_MOVED_BOOL){
+    			NOT_MOVED_CTR++;
+    			MOVED_CTR = 0; 
+    		} else {
+    			MOVED_CTR++;
     		}
-    	} else{
-    		notMoving = false;
-    		if (startTime != null){
-    			endTime = System.getClockTime();
-    		}
+	    	if(MOVED_CTR >= 5) {
+	    			NOT_MOVED_CTR = 0;
+	    			MOVED_CTR = 0;
+	    	}
+	    	secondCtr = 0;
+	    	notMovingCtr = 0;
     	}
     	
-    	if(averageArray.size() > 0) {
-    		System.println("Array: " + averageArray);
+    	if (minuteCtr >= 30 && (MOVED_CTR>0)){
+    		var view = new CheckBoxView();
+    		var delegate = new CheckBoxDelegate();
+    		WatchUi.pushView(view, delegate, WatchUi.SLIDE_IMMEDIATE);
     	}
     	
     	
-    	if(averageArray.size() == INTERVAL) {
-    		System.println("INTERVAL, CHECKING ACTIVITY");
-    		Storage.deleteValue("avgarray");
-    		Storage.setValue("avgarray", []);
-    		System.println("FULL ARRAY: " + averageArray); 
-    		System.println("STORED ARRAY: " + Storage.getValue("avgarray"));
-    		processData(averageArray);
-    	} else {
-	    	Storage.setValue("avgarray", averageArray);
-	    	
-	    	WatchUi.requestUpdate();
-    	}
+    	
+//    	if(averageArray.size() > 0) {
+//    		System.println("Array: " + averageArray);
+//    	}
+//    	
+//    	
+//    	if(averageArray.size() == INTERVAL) {
+//    		System.println("INTERVAL, CHECKING ACTIVITY");
+//    		Storage.deleteValue("avgarray");
+//    		Storage.setValue("avgarray", []);
+//    		System.println("FULL ARRAY: " + averageArray); 
+//    		System.println("STORED ARRAY: " + Storage.getValue("avgarray"));
+//    		processData(averageArray);
+//    	} else {
+//	    	Storage.setValue("avgarray", averageArray);
+//	    	
+//	    	WatchUi.requestUpdate();
+//    	}
     }
     
-    function processData(movementData) {
-    	if(movementData!=null && movementData.size() > 0) {
-    		var activeCount = 0;
-	    	for(var i=0; i<movementData.size(); i++) {
-	    		if(movementData[i] >= MOVEMENT_THRESHOLD) {
-	    			activeCount++;
-	    		}
-	    	}
-	    	System.println("ACTIVE COUNT" + activeCount);
-	    	if(activeCount > movementData.size()/2) {
-	    		System.println("WAS MOVING, PUSHING NOTIFICATION");
-	    		var view = new CheckBoxView();
-	    		var delegate = new CheckBoxDelegate();
-	    		WatchUi.pushView(view, delegate, WatchUi.SLIDE_IMMEDIATE);
-	    		System.println("BACK FROM CHECKBOXVIEW");
-	    	}
-    	}
-    }
+//    function processData(movementData) {
+//    	if(movementData!=null && movementData.size() > 0) {
+//    		var activeCount = 0;
+//	    	for(var i=0; i<movementData.size(); i++) {
+//	    		if(movementData[i] >= MOVEMENT_THRESHOLD) {
+//	    			activeCount++;
+//	    		}
+//	    	}
+//	    	System.println("ACTIVE COUNT" + activeCount);
+//	    	if(activeCount > movementData.size()/2) {
+//	    		System.println("WAS MOVING, PUSHING NOTIFICATION");
+//	    		var view = new CheckBoxView();
+//	    		var delegate = new CheckBoxDelegate();
+//	    		WatchUi.pushView(view, delegate, WatchUi.SLIDE_IMMEDIATE);
+//	    		System.println("BACK FROM CHECKBOXVIEW");
+//	    	}
+//    	}
+//    }
 }
