@@ -7,6 +7,7 @@
 using Toybox.WatchUi;
 using Toybox.Graphics;
 using Toybox.Communications;
+using Toybox.Attention;
 
 //need 
 // Store reference to View in which the list lives
@@ -239,11 +240,13 @@ class CheckBoxList {
     		System.println("Yes Survey");
     	 	Communications.transmit("Yes Survey", null, listener);
     	 	System.println("Sent Survey");
+    	 	WatchUi.popView(WatchUi.SLIDE_IMMEDIATE);
+			WatchUi.pushView(new PhoneView(), new PhoneDelegate(), WatchUi.SLIDE_IMMEDIATE);
         } else {
     		System.println("No Survey");
     		Communications.transmit("No Survey", null, listener);
+    		WatchUi.popView(WatchUi.SLIDE_IMMEDIATE);
         }
-		WatchUi.popView(WatchUi.SLIDE_IMMEDIATE); 
     }
 }
 
@@ -292,6 +295,15 @@ class CheckBoxView extends WatchUi.View {
         behavior_hits = 0;
         // Initialize global reference
         currentView = self;
+        
+        if( Attention has :vibrate) {
+	        var vibrateData = [ new Attention.VibeProfile(  100, 300 ),
+	        	new Attention.VibeProfile(  0, 300 ),
+	            new Attention.VibeProfile(  100, 300 ),
+	            new Attention.VibeProfile(  0, 300 ),
+	            new Attention.VibeProfile(  100, 300 ) ];
+	        Attention.vibrate( vibrateData );
+        }
     }
 	
     //! Load your resources here

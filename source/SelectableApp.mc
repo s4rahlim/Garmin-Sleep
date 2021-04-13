@@ -7,9 +7,6 @@
 using Toybox.Application;
 using Toybox.Communications;
 
-(:background)
-
-
 
 class SelectableApp extends Application.AppBase {
 	

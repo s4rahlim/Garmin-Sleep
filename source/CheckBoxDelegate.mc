@@ -120,15 +120,9 @@ class CheckBoxDelegate extends WatchUi.BehaviorDelegate {
         } else if (swipe == SWIPE_DOWN) {
         	System.println("CheckBoxDelegate::onSwipe - SWIPE_DOWN");
             setActionString("SWIPE_DOWN");
-            var view = new PhoneView();
-        	var delegate = new ButtonDelegate();
-        	WatchUi.pushView(view, delegate, SLIDE_IMMEDIATE);
         } else if (swipe == SWIPE_LEFT) {
         	System.println("CheckBoxDelegate::onSwipe - SWIPE_LEFT");
             setActionString("SWIPE_LEFT");
-           	var sensView = new WatchFaceView();
-	    	var sensDelegate = new ButtonDelegate();
-	    	WatchUi.pushView(sensView, sensDelegate, SLIDE_IMMEDIATE);
 	    	System.println("CheckBoxDelegate::onSwipe - SWIPE_RIGHT");
         }
 
@@ -139,18 +133,6 @@ class CheckBoxDelegate extends WatchUi.BehaviorDelegate {
     	System.println("CheckBoxDelegate::onNextPage");
     	last_behavior = ON_NEXT_PAGE;
         setBehaviorString("NEXT_PAGE");
-        return pushMenu(WatchUi.SLIDE_IMMEDIATE);
-    }
-
-//now overriding menu function 
-    function pushMenu(slideDir) {
-    	System.println("CheckBoxDelegate::pushMenu");
-    	
-    	//var view = new ButtonView();
-        var view = new PhoneView();
-//        var view = new ClearView();
-        var delegate = new ButtonDelegate();
-        WatchUi.pushView(view, delegate, slideDir); //pushing phone view on top, checkbox is still under
         return true;
     }
 
@@ -242,11 +224,6 @@ class CheckBoxDelegate extends WatchUi.BehaviorDelegate {
                 System.exit();
             }
         }
-
-        if (key == KEY_ENTER) {
-            pushMenu(WatchUi.SLIDE_IMMEDIATE);
-        }
-
 		last_key = key;
         return false;
     }

@@ -4,10 +4,12 @@ using Toybox.System;
 using Toybox.Lang;
 using Toybox.Time;
 using Toybox.Application.Storage;
+using Toybox.Attention;
 
 const PERIOD = 30;
-const INACTIVE_THRESHOLD = 0.1;
-const MOVEMENT_THRESHOLD = 110000;
+const INACTIVE_THRESHOLD = 0.9;
+const MOVEMENT_THRESHOLD = 1100000;
+const ACTIVE_CONDITION = 5;
 
 class WatchFaceView extends WatchUi.View {
 	var five = new Time.Duration(300);
@@ -22,9 +24,9 @@ class WatchFaceView extends WatchUi.View {
     var notMoving = false; 
     var notMovingCtr = 0; 
     var secondCtr = 0;
-    var minuteCtr = 0;
     var notMovedBool = false;
     var sendNotification = false;
+    var periodExpire = 0;
     
   	// initialize accelerometer
 	var options = {
@@ -56,7 +58,7 @@ class WatchFaceView extends WatchUi.View {
     function onUpdate(dc) {
         // Get and show the current time
         var clockTime = System.getClockTime();
-        var timeString = Lang.format("$1$:$2$", [clockTime.hour, clockTime.min.format("%02d")]);
+        var timeString = Lang.format("$1$:$2$:$3$", [clockTime.hour, clockTime.min.format("%02d"), clockTime.sec.format("%02d")]);
         var view = View.findDrawableById("TimeLabel");
         view.setText(timeString);
 
@@ -95,7 +97,7 @@ class WatchFaceView extends WatchUi.View {
     
     function onAccelData() {
     	//Second Calculations
-    	secondCtr = secondCtr + 1;
+    	secondCtr++;
     	if(mX.size() !=0) {
 	    	for(var i=0; i<mX.size(); i++) {
 	    		xAvg+=mX[i];
@@ -110,13 +112,16 @@ class WatchFaceView extends WatchUi.View {
 //    	System.println("xAvg: " + xAvg + ", yAvg: " + yAvg + ", zAvg: " + zAvg);
     	var sum = xAvg*xAvg + yAvg*yAvg + zAvg*zAvg; 
     	if (sum < MOVEMENT_THRESHOLD){
-    		notMovingCtr = notMovingCtr + 1;
+    		notMovingCtr++;
     	} 
     	
     	//Minute Calculations
+    	
+    	//Period array holds 30 values. Each value represents a minute in the last 30 minutes of recorded data.
+    	//True in period array means the user was NOT moving for that specific minute.
+    	
     	if (secondCtr == 60){
     		notMovedBool = (notMovingCtr > 30);
-    		minuteCtr++;
     		secondCtr = 0;
 	    	notMovingCtr = 0;
 	    	
@@ -125,67 +130,37 @@ class WatchFaceView extends WatchUi.View {
     		if(periodArray.size() >= PERIOD) {
     			periodArray = periodArray.slice(1,null);
 	    		var notMovingMinCtr = 0;
-	    		var consecutiveCtr = 0;
-	    		var consecutiveMoving = false;
+	    		var consecutiveMoving = true;
 	    		for(var i=0; i<periodArray.size(); i++) {
 	    			if(periodArray[i]) { //if notMovedBool == true for that minute
-	    				notMovingMinCtr++;
-	    				consecutiveCtr++;
-	    			} else {
-	    				consecutiveCtr=0;
-	    			}
-	    			if(consecutiveCtr == 5) {
-	    				consecutiveMoving = true;
+	    				notMovingMinCtr++; //increment not moving counter
 	    			}
 		    	}
-		    	if(notMovingMinCtr >= PERIOD*INACTIVE_THRESHOLD) {
+		    	if(notMovingMinCtr >= PERIOD*INACTIVE_THRESHOLD) { //if inactive for 30*.9, then period is inactive.
 		    		sendNotification = true;
 		    	}
-		    	if(sendNotification && consecutiveMoving) {
+		    	
+		    	if(sendNotification) {
+		    		periodExpire++;
+		    	}
+		    	
+		    	for(var i=periodArray.size()-1; i>periodArray.size()-6; i--) { //check most recent 5 minutes, see if they're all active.  If not, set boolean to false and break.
+	    			if(periodArray[i]) { //if notMovedBool == true for that minute
+	    				consecutiveMoving = false;
+	    				break;
+	    			}
+		    	}
+		    	
+		    	if(sendNotification && (consecutiveMoving||periodExpire==30)) {
+		    		sendNotification = false;
+		    		periodExpire=0;
 		    		periodArray = [];
 			    	var view = new CheckBoxView();
 		    		var delegate = new CheckBoxDelegate();
 		    		WatchUi.pushView(view, delegate, WatchUi.SLIDE_IMMEDIATE);
     			}
     		} 
-    		Storage.getValue("periodarray", periodArray);
+    		Storage.setValue("periodarray", periodArray);
     	}
-    	
-//    	if(averageArray.size() > 0) {
-//    		System.println("Array: " + averageArray);
-//    	}
-//    	
-//    	
-//    	if(averageArray.size() == INTERVAL) {
-//    		System.println("INTERVAL, CHECKING ACTIVITY");
-//    		Storage.deleteValue("avgarray");
-//    		Storage.setValue("avgarray", []);
-//    		System.println("FULL ARRAY: " + averageArray); 
-//    		System.println("STORED ARRAY: " + Storage.getValue("avgarray"));
-//    		processData(averageArray);
-//    	} else {
-//	    	Storage.setValue("avgarray", averageArray);
-//	    	
-//	    	WatchUi.requestUpdate();
-//    	}
     }
-    
-//    function processData(movementData) {
-//    	if(movementData!=null && movementData.size() > 0) {
-//    		var activeCount = 0;
-//	    	for(var i=0; i<movementData.size(); i++) {
-//	    		if(movementData[i] >= MOVEMENT_THRESHOLD) {
-//	    			activeCount++;
-//	    		}
-//	    	}
-//	    	System.println("ACTIVE COUNT" + activeCount);
-//	    	if(activeCount > movementData.size()/2) {
-//	    		System.println("WAS MOVING, PUSHING NOTIFICATION");
-//	    		var view = new CheckBoxView();
-//	    		var delegate = new CheckBoxDelegate();
-//	    		WatchUi.pushView(view, delegate, WatchUi.SLIDE_IMMEDIATE);
-//	    		System.println("BACK FROM CHECKBOXVIEW");
-//	    	}
-//    	}
-//    }
 }
