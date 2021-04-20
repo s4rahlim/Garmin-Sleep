@@ -8,7 +8,7 @@ using Toybox.Attention;
 
 const PERIOD = 30;
 const INACTIVE_THRESHOLD = 0.9;
-const MOVEMENT_THRESHOLD = 1100000;
+const MOVEMENT_THRESHOLD = 1200000;
 const ACTIVE_CONDITION = 5;
 
 class WatchFaceView extends WatchUi.View {
@@ -27,6 +27,7 @@ class WatchFaceView extends WatchUi.View {
     var notMovedBool = false;
     var sendNotification = false;
     var periodExpire = 0;
+    var unconnectedToPhone = 0;
     
   	// initialize accelerometer
 	var options = {
@@ -40,6 +41,7 @@ class WatchFaceView extends WatchUi.View {
     function initialize() {
         View.initialize();
         Storage.setValue("periodarray", []);
+        Storage.setValue("transmit", 0);
         Sensor.registerSensorDataListener(method(:accel_callback), options);
     }
 
@@ -110,7 +112,8 @@ class WatchFaceView extends WatchUi.View {
     	}
 //    	System.println("x: " + mX + ", y: " + mY + ", z: " + mZ);
 //    	System.println("xAvg: " + xAvg + ", yAvg: " + yAvg + ", zAvg: " + zAvg);
-    	var sum = xAvg*xAvg + yAvg*yAvg + zAvg*zAvg; 
+    	var sum = xAvg*xAvg + yAvg*yAvg + zAvg*zAvg;
+    	System.println("SUM" + sum); 
     	if (sum < MOVEMENT_THRESHOLD){
     		notMovingCtr++;
     	} 
@@ -126,13 +129,16 @@ class WatchFaceView extends WatchUi.View {
 	    	notMovingCtr = 0;
 	    	
     		var periodArray = Storage.getValue("periodarray");
+    		System.println("BEFORE" + periodArray);
     		periodArray.add(notMovedBool);
-    		if(periodArray.size() >= PERIOD) {
+    		System.println("AFTER" + periodArray);
+    		if(periodArray.size() > PERIOD) {
     			periodArray = periodArray.slice(1,null);
+    			System.println("CALCING" + periodArray);
 	    		var notMovingMinCtr = 0;
 	    		var consecutiveMoving = true;
 	    		for(var i=0; i<periodArray.size(); i++) {
-	    			if(periodArray[i]) { //if notMovedBool == true for that minute
+	    			if(periodArray[i]!=null && periodArray[i]) { //if notMovedBool == true for that minute
 	    				notMovingMinCtr++; //increment not moving counter
 	    			}
 		    	}
@@ -145,13 +151,14 @@ class WatchFaceView extends WatchUi.View {
 		    	}
 		    	
 		    	for(var i=periodArray.size()-1; i>periodArray.size()-6; i--) { //check most recent 5 minutes, see if they're all active.  If not, set boolean to false and break.
-	    			if(periodArray[i]) { //if notMovedBool == true for that minute
+	    			if(periodArray[i]!=null && periodArray[i]) { //if notMovedBool == true for that minute
 	    				consecutiveMoving = false;
 	    				break;
 	    			}
 		    	}
 		    	
-		    	if(sendNotification && (consecutiveMoving||periodExpire==30)) {
+		    	if(sendNotification /*&& (consecutiveMoving||periodExpire==30)*/) {
+		    		System.println("IN");
 		    		sendNotification = false;
 		    		periodExpire=0;
 		    		periodArray = [];
@@ -159,8 +166,25 @@ class WatchFaceView extends WatchUi.View {
 		    		var delegate = new CheckBoxDelegate();
 		    		WatchUi.pushView(view, delegate, WatchUi.SLIDE_IMMEDIATE);
     			}
-    		} 
+    		}
+    		var transmitted = Storage.getValue("transmit");
+    		
+    		//handle if phone isn't close enough to watch to connect
+    		if(transmitted == 1) {
+    			unconnectedToPhone++;
+    			if(unconnectedToPhone == 30) {
+    				unconnectedToPhone=0;
+    				var view = new CheckBoxView();
+		    		var delegate = new CheckBoxDelegate();
+		    		WatchUi.pushView(view, delegate, WatchUi.SLIDE_IMMEDIATE);
+    			}
+    		} else {
+    			unconnectedToPhone=0;
+    		}
+    		
+    		//store array back into storage
     		Storage.setValue("periodarray", periodArray);
     	}
+    	WatchUi.requestUpdate();
     }
 }

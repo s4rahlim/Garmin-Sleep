@@ -8,6 +8,7 @@ using Toybox.WatchUi;
 using Toybox.Graphics;
 using Toybox.Communications;
 using Toybox.Attention;
+using Toybox.Application.Storage;
 
 //need 
 // Store reference to View in which the list lives
@@ -272,19 +273,14 @@ class CheckBoxView extends WatchUi.View {
 
     //! Constructor
     function initialize() {
-
-    	//from sensor view
-//        Sensor.setEnabledSensors( [Sensor.SENSOR_HEARTRATE] );
-//        Sensor.enableSensorEvents( method(:onSnsr) );
-//        HR_graph = new LineGraph( 20, 10, Graphics.COLOR_RED );
-//
-//        string_HR = "---bpm";
-//        string_ACCEL = "x: y: z:";
-//        string_MOVING = "Not Moving";
-//        string_ACTIVE_MIN = "s_s";
-//        string_ACTIVE_SEC = "Uninit";
-
-        
+        if( Attention has :vibrate) {
+	        var vibrateData = [ new Attention.VibeProfile(  100, 300 ),
+	        	new Attention.VibeProfile(  0, 300 ),
+	            new Attention.VibeProfile(  100, 300 ),
+	            new Attention.VibeProfile(  0, 300 ),
+	            new Attention.VibeProfile(  100, 300 ) ];
+	        Attention.vibrate( vibrateData );
+        }
     	System.println("CheckBoxView::initialize");
         View.initialize();
 
@@ -295,22 +291,11 @@ class CheckBoxView extends WatchUi.View {
         behavior_hits = 0;
         // Initialize global reference
         currentView = self;
-        
-        if( Attention has :vibrate) {
-	        var vibrateData = [ new Attention.VibeProfile(  100, 300 ),
-	        	new Attention.VibeProfile(  0, 300 ),
-	            new Attention.VibeProfile(  100, 300 ),
-	            new Attention.VibeProfile(  0, 300 ),
-	            new Attention.VibeProfile(  100, 300 ) ];
-	        Attention.vibrate( vibrateData );
-        }
     }
 	
     //! Load your resources here
     function onLayout(dc) {
     	System.println("CheckBoxView::onLayout");
-//    	timer1 = new Timer.Timer();
-//    	timer1.start(method(:callback1), 1000, true);
         checkBoxes = new CheckBoxList(dc);
         setLayout(checkBoxes.getList());
     }
@@ -324,14 +309,8 @@ class CheckBoxView extends WatchUi.View {
 		dc.setColor(Graphics.COLOR_WHITE, Graphics.COLOR_BLACK);
 		var x = dc.getWidth() / 2;
         var y = 120;//hack for layout...(dc.getHeight() / 2) - (3 * dc.getFontHeight(Graphics.FONT_SMALL) / 2);
-
-//        dc.drawText(x, y, Graphics.FONT_SMALL, action_string, Graphics.TEXT_JUSTIFY_CENTER);
-//        dc.drawText(x, y + dc.getFontHeight(Graphics.FONT_SMALL), Graphics.FONT_SMALL, behavior_string, Graphics.TEXT_JUSTIFY_CENTER);
-//        dc.drawText(x, y + 2 * dc.getFontHeight(Graphics.FONT_SMALL), Graphics.FONT_SMALL, status_string, Graphics.TEXT_JUSTIFY_CENTER);
-        
         dc.setColor(Graphics.COLOR_RED, Graphics.COLOR_BLACK);
-        //from sensorview
-        //dc.drawText(x, dc.getHeight()/2 - 20, Graphics.FONT_MEDIUM, "x: " + xAvg + ", y: " + yAvg + ", z: " + zAvg, Graphics.TEXT_JUSTIFY_CENTER);
+
         dc.drawText(x, dc.getHeight()/2 - 20, Graphics.FONT_MEDIUM, "Respond to Survey", Graphics.TEXT_JUSTIFY_CENTER);
 
         dc.drawText(x, dc.getHeight()/2 - dc.getFontHeight(Graphics.FONT_SMALL) -25, Graphics.FONT_SMALL, "YES", Graphics.TEXT_JUSTIFY_CENTER);
